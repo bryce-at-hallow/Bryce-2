@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Case for Dallas — Bryce McWhirter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --purple: #6D0EC1;
+      --purple-soft: rgba(109, 14, 193, 0.10);
+      --purple-border: rgba(109, 14, 193, 0.22);
+      --black: #000000;
+      --white: #FFFFFF;
+      --gray-50: #F8F8F8;
+      --gray-100: #F0F0F0;
+      --gray-200: #E2E2E2;
+      --gray-500: #888888;
+      --gray-700: #444444;
+      --gray-900: #111111;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--white);
+      color: var(--black);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ─── LAYOUT ─── */
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 48px; }
+
+    /* ─── HEADER ─── */
+    .site-header {
+      padding: 22px 48px;
+      border-bottom: 1px solid var(--gray-200);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      background: rgba(255,255,255,0.96);
+      backdrop-filter: blur(8px);
+      z-index: 100;
+    }
+    .logo {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--purple);
+    }
+    .header-tag {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--gray-500);
+      letter-spacing: 0.5px;
+    }
+
+    /* ─── HERO ─── */
+    .hero {
+      padding: 88px 48px 72px;
+      border-bottom: 1px solid var(--gray-200);
+    }
+    .eyebrow {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--purple);
+      margin-bottom: 24px;
+    }
+    .hero-headline {
+      font-size: 72px;
+      font-weight: 800;
+      line-height: 1.0;
+      letter-spacing: -3px;
+      color: var(--black);
+      margin-bottom: 28px;
+      max-width: 780px;
+    }
+    .hero-headline em {
+      font-style: normal;
+      color: var(--purple);
+    }
+    .hero-lede {
+      font-size: 18px;
+      color: var(--gray-700);
+      max-width: 600px;
+      line-height: 1.72;
+      font-weight: 400;
+    }
+    .hero-meta {
+      margin-top: 40px;
+      display: flex;
+      gap: 32px;
+      align-items: center;
+    }
+    .hero-meta-item {
+      font-size: 13px;
+      color: var(--gray-500);
+      font-weight: 500;
+    }
+    .hero-meta-item strong {
+      color: var(--black);
+      font-weight: 700;
+    }
+    .dot { color: var(--gray-200); }
+
+    /* ─── SECTION ─── */
+    .section { padding: 72px 48px; border-bottom: 1px solid var(--gray-200); }
+    .section:last-of-type { border-bottom: none; }
+    .section-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--purple);
+      margin-bottom: 14px;
+    }
+    .section-title {
+      font-size: 38px;
+      font-weight: 800;
+      letter-spacing: -1.5px;
+      color: var(--black);
+      margin-bottom: 16px;
+      line-height: 1.1;
+    }
+    .section-body {
+      font-size: 16px;
+      color: var(--gray-700);
+      max-width: 660px;
+      line-height: 1.78;
+    }
+
+    /* ─── KPI ROW ─── */
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-top: 48px;
+    }
+    .kpi {
+      padding: 32px 28px;
+      border-radius: 14px;
+      border: 1px solid var(--gray-200);
+      background: var(--gray-50);
+    }
+    .kpi.accent {
+      background: var(--purple);
+      border-color: var(--purple);
+    }
+    .kpi-val {
+      font-size: 44px;
+      font-weight: 800;
+      letter-spacing: -2.5px;
+      color: var(--black);
+      line-height: 1;
+      margin-bottom: 10px;
+    }
+    .kpi.accent .kpi-val { color: var(--white); }
+    .kpi-desc {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--gray-500);
+      line-height: 1.45;
+    }
+    .kpi.accent .kpi-desc { color: rgba(255,255,255,0.65); }
+
+    /* ─── TRIP GRID ─── */
+    .trip-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 44px;
+    }
+    .trip-card {
+      padding: 26px;
+      border: 1px solid var(--gray-200);
+      border-radius: 12px;
+      background: var(--white);
+      transition: border-color 0.15s;
+    }
+    .trip-card:hover { border-color: var(--purple); }
+    .trip-seq {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--purple);
+      margin-bottom: 10px;
+    }
+    .trip-city {
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--black);
+      letter-spacing: -0.5px;
+      margin-bottom: 3px;
+    }
+    .trip-state {
+      font-size: 13px;
+      color: var(--gray-500);
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    .trip-event {
+      font-size: 12px;
+      color: var(--gray-700);
+      font-style: italic;
+      line-height: 1.5;
+      margin-bottom: 14px;
+    }
+    .trip-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 10px;
+      border-radius: 100px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .trip-tag.flight {
+      background: var(--purple-soft);
+      color: var(--purple);
+      border: 1px solid var(--purple-border);
+    }
+    .trip-tag.drive {
+      background: var(--gray-100);
+      color: var(--gray-700);
+      border: 1px solid var(--gray-200);
+    }
+
+    /* ─── CALLOUT ─── */
+    .callout {
+      margin-top: 28px;
+      padding: 22px 26px;
+      background: var(--purple-soft);
+      border-left: 3px solid var(--purple);
+      border-radius: 0 10px 10px 0;
+    }
+    .callout p {
+      font-size: 15px;
+      color: var(--gray-900);
+      line-height: 1.7;
+    }
+    .callout p strong { color: var(--black); }
+
+    /* ─── EXPENSE CHART ─── */
+    .expense-chart { margin-top: 44px; }
+    .expense-row {
+      display: grid;
+      grid-template-columns: 160px 1fr 90px;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 14px;
+    }
+    .expense-name {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--black);
+    }
+    .bar-track {
+      height: 36px;
+      background: var(--gray-100);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      border-radius: 6px;
+      background: var(--purple);
+      display: flex;
+      align-items: center;
+    }
+    .bar-fill.mid { background: rgba(109, 14, 193, 0.38); }
+    .bar-fill.low { background: rgba(109, 14, 193, 0.18); }
+    .expense-amt {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--black);
+      text-align: right;
+    }
+    .expense-total-row {
+      margin-top: 32px;
+      padding: 28px 32px;
+      background: var(--gray-50);
+      border-radius: 14px;
+      border: 1px solid var(--gray-200);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+    .total-block-label {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--gray-500);
+      margin-bottom: 8px;
+    }
+    .total-block-val {
+      font-size: 46px;
+      font-weight: 800;
+      letter-spacing: -2.5px;
+      color: var(--black);
+      line-height: 1;
+    }
+    .total-block-val.purple { color: var(--purple); }
+
+    /* ─── TWO COL ─── */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 44px;
+    }
+    .box {
+      padding: 36px;
+      border-radius: 14px;
+      border: 1px solid var(--gray-200);
+      background: var(--gray-50);
+    }
+    .box.dark { background: var(--purple); border-color: var(--purple); }
+    .box-icon { font-size: 28px; margin-bottom: 16px; }
+    .box-title {
+      font-size: 21px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--black);
+      margin-bottom: 12px;
+    }
+    .box.dark .box-title { color: var(--white); }
+    .box-text {
+      font-size: 15px;
+      color: var(--gray-700);
+      line-height: 1.72;
+      margin-bottom: 20px;
+    }
+    .box.dark .box-text { color: rgba(255,255,255,0.75); }
+    .fact-list { list-style: none; margin-top: 4px; }
+    .fact-list li {
+      font-size: 14px;
+      color: var(--gray-700);
+      padding: 9px 0;
+      border-bottom: 1px solid var(--gray-200);
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+    .fact-list li:last-child { border-bottom: none; }
+    .box.dark .fact-list li {
+      color: rgba(255,255,255,0.8);
+      border-bottom-color: rgba(255,255,255,0.12);
+    }
+    .arrow { flex-shrink: 0; color: var(--purple); font-weight: 700; margin-top: 1px; }
+    .box.dark .arrow { color: rgba(255,255,255,0.5); }
+
+    /* ─── CHECK LIST ─── */
+    .check-list { list-style: none; margin-top: 20px; }
+    .check-list li {
+      font-size: 15px;
+      color: var(--gray-700);
+      padding: 10px 0;
+      border-bottom: 1px solid var(--gray-200);
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      line-height: 1.5;
+    }
+    .check-list li:last-child { border-bottom: none; }
+    .chk {
+      width: 20px;
+      height: 20px;
+      min-width: 20px;
+      background: var(--purple);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      font-size: 10px;
+      font-weight: 700;
+      margin-top: 1px;
+    }
+
+    /* ─── DFW STATS BOX ─── */
+    .stat-stacked { margin-top: 8px; }
+    .stat-stacked-item { margin-bottom: 28px; }
+    .stat-stacked-item:last-child { margin-bottom: 0; }
+    .stat-big {
+      font-size: 52px;
+      font-weight: 800;
+      letter-spacing: -3px;
+      color: var(--purple);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .stat-big.black { color: var(--black); }
+    .stat-caption { font-size: 14px; color: var(--gray-500); }
+
+    /* ─── COST TABLE ─── */
+    .cost-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+      margin-top: 44px;
+    }
+    .cost-panel {
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--gray-200);
+    }
+    .cost-panel-head {
+      padding: 18px 28px;
+      background: var(--gray-100);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gray-500);
+    }
+    .cost-panel.purple-panel .cost-panel-head {
+      background: rgba(109, 14, 193, 0.15);
+      color: var(--purple);
+    }
+    .cost-panel-body { padding: 8px 0; }
+    .cost-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 28px;
+      border-bottom: 1px solid var(--gray-100);
+      font-size: 14px;
+    }
+    .cost-row:last-child { border-bottom: none; }
+    .cost-row.total { font-weight: 700; background: var(--gray-50); }
+    .cost-k { color: var(--gray-700); }
+    .cost-v { font-weight: 600; color: var(--black); }
+    .cost-panel.purple-panel .cost-row { border-bottom-color: rgba(109,14,193,0.08); }
+    .cost-panel.purple-panel .cost-row.total { background: rgba(109,14,193,0.06); }
+    .cost-panel.purple-panel .cost-v { color: var(--purple); }
+
+    /* ─── ROI ─── */
+    .roi-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+      margin-top: 44px;
+    }
+    .roi-card {
+      padding: 40px;
+      border-radius: 14px;
+    }
+    .roi-card.light { background: var(--gray-50); border: 1px solid var(--gray-200); }
+    .roi-card.purple-card { background: var(--purple-soft); border: 1px solid var(--purple-border); }
+    .roi-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gray-500);
+      margin-bottom: 18px;
+    }
+    .roi-card.purple-card .roi-eyebrow { color: var(--purple); }
+    .roi-big {
+      font-size: 56px;
+      font-weight: 800;
+      letter-spacing: -3px;
+      color: var(--black);
+      line-height: 1;
+      margin-bottom: 14px;
+    }
+    .roi-card.purple-card .roi-big { color: var(--purple); }
+    .roi-note {
+      font-size: 14px;
+      color: var(--gray-700);
+      line-height: 1.72;
+    }
+
+    /* ─── ASK SECTION ─── */
+    .ask-wrap {
+      background: var(--black);
+      padding: 88px 48px;
+    }
+    .ask-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--purple);
+      margin-bottom: 20px;
+    }
+    .ask-headline {
+      font-size: 60px;
+      font-weight: 800;
+      letter-spacing: -3px;
+      line-height: 1.04;
+      color: var(--white);
+      margin-bottom: 28px;
+      max-width: 720px;
+    }
+    .ask-headline em { font-style: normal; color: var(--purple); }
+    .ask-body {
+      font-size: 17px;
+      color: rgba(255,255,255,0.58);
+      max-width: 580px;
+      line-height: 1.78;
+      margin-bottom: 52px;
+    }
+    .salary-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      max-width: 760px;
+    }
+    .salary-card {
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.1);
+      background: rgba(255,255,255,0.04);
+    }
+    .salary-card.highlight {
+      border-color: var(--purple);
+      background: rgba(109, 14, 193, 0.18);
+    }
+    .salary-card-val {
+      font-size: 36px;
+      font-weight: 800;
+      letter-spacing: -2px;
+      color: var(--white);
+      margin-bottom: 6px;
+      line-height: 1;
+    }
+    .salary-card.highlight .salary-card-val { color: var(--purple); }
+    .salary-card-label {
+      font-size: 12px;
+      color: rgba(255,255,255,0.45);
+      line-height: 1.55;
+    }
+    .salary-card.highlight .salary-card-label { color: rgba(255,255,255,0.6); }
+
+    /* ─── FOOTER ─── */
+    .site-footer {
+      padding: 36px 48px;
+      border-top: 1px solid var(--gray-200);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .footer-logo { font-size: 17px; font-weight: 800; color: var(--purple); }
+    .footer-info { font-size: 13px; color: var(--gray-500); }
+    /* ─── COMPARE KPI ROW ─── */
+    .compare-kpi-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-top: 44px;
+    }
+    .compare-kpi {
+      border-radius: 14px;
+      padding: 30px 28px;
+      border: 1px solid var(--gray-200);
+      background: var(--gray-50);
+    }
+    .compare-kpi.purple {
+      background: var(--purple-soft);
+      border-color: var(--purple-border);
+    }
+    .compare-kpi-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gray-500);
+      margin-bottom: 14px;
+    }
+    .compare-kpi.purple .compare-kpi-eyebrow { color: var(--purple); }
+    .compare-kpi-val {
+      font-size: 42px;
+      font-weight: 800;
+      letter-spacing: -2.5px;
+      color: var(--black);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .compare-kpi.purple .compare-kpi-val { color: var(--purple); }
+    .compare-kpi-desc { font-size: 13px; color: var(--gray-500); line-height: 1.55; }
+
+    /* ─── CHART ─── */
+    .chart-wrap {
+      margin-top: 44px;
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: 14px;
+      padding: 16px 22px 12px;
+      height: 240px;
+    }
+    .chart-note {
+      margin-top: 14px;
+      font-size: 12px;
+      color: var(--gray-500);
+      font-style: italic;
+      line-height: 1.6;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="logo">Hallow</div>
+    <div class="header-tag">Prepared by Bryce McWhirter &nbsp;·&nbsp; April 2026 &nbsp;·&nbsp; Internal — Confidential</div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <span class="eyebrow">Strategic Proposal — Compensation &amp; Relocation</span>
+    <h1 class="hero-headline">The Case for<br><em>Dallas.</em></h1>
+    <p class="hero-lede">A data-driven proposal for relocating from Lubbock, TX to the DFW Metroplex — and adjusting my compensation to reflect the cost-of-living difference and the operational efficiency it creates for Hallow's Parish Partnerships program.</p>
+    <div class="hero-meta">
+      <div class="hero-meta-item"><strong>Submitted:</strong> April 2026</div>
+      <span class="dot">·</span>
+      <div class="hero-meta-item"><strong>Current Base:</strong> $65,000</div>
+      <span class="dot">·</span>
+      <div class="hero-meta-item"><strong>Requested Adjustment:</strong> $10,000–$20,000</div>
+      <span class="dot">·</span>
+      <div class="hero-meta-item"><strong>Review Window:</strong> June 2026</div>
+    </div>
+  </section>
+
+  <!-- KPI SNAPSHOT -->
+  <section class="section">
+    <span class="section-eyebrow">2026 Travel Activity — January through March</span>
+    <h2 class="section-title">The Numbers Don't Lie.</h2>
+    <p class="section-body">Since late January 2026, I've completed parish trips at a pace of nearly one per week — all departing from Lubbock Preston Smith International Airport (LBB), which has minimal direct routes and routes virtually all travelers through DFW first.</p>
+    <div class="kpi-row">
+      <div class="kpi accent">
+        <div class="kpi-val">9</div>
+        <div class="kpi-desc">Parish trips completed in 2026</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-val">10</div>
+        <div class="kpi-desc">Weeks of active travel since Jan 23</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-val">$3,893</div>
+        <div class="kpi-desc">Travel expenses logged in Ramp YTD</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-val">8+</div>
+        <div class="kpi-desc">States visited for parish events</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRIP LOG -->
+  <section class="section">
+    <span class="section-eyebrow">Complete Trip Log — Ramp Verified</span>
+    <h2 class="section-title">Every Parish. Every Week.</h2>
+    <p class="section-body">All 9 completed trips in 2026 originated from Lubbock, TX. Every trip requiring a flight required an additional connecting leg through Dallas/Fort Worth — a cost and time burden that doesn't exist for colleagues based in hub cities.</p>
+
+    <div class="trip-grid">
+      <div class="trip-card">
+        <div class="trip-seq">Trip 01 · Jan 23–27</div>
+        <div class="trip-city">Dayton</div>
+        <div class="trip-state">Ohio</div>
+        <div class="trip-event">Shadowing a parish mission</div>
+        <span class="trip-tag flight">✈ Via DFW Connection</span>
+      </div>
+      <div class="trip-card">
+        <div class="trip-seq">Trip 02 · Jan 31–Feb 2</div>
+        <div class="trip-city">Saint Paul</div>
+        <div class="trip-state">Minnesota</div>
+        <div class="trip-event">Four Pillars ACC — Parish Mission</div>
+        <span class="trip-tag flight">✈ Via DFW Connection</span>
+      </div>
+      <div class="trip-card">
+        <div class="trip-seq">Trip 03 · Feb 20–24</div>
+        <div class="trip-city">Grand Rapids</div>
+        <div class="trip-state">Michigan</div>
+        <div class="trip-event">Our Lady of Consolation — Parish Event</div>
+        <span class="trip-tag flight">✈ Via DFW Connection</span>
+      </div>
+      <div class="trip-card">
+        <div class="trip-seq">Trip 04 · Feb 27–Mar 2</div>
+        <div class="trip-city">Santa Fe</div>
+        <div class="trip-state">New Mexico</div>
+        <div class="trip-event">Santa Maria Parish — Parish Mission</div>
+        <span class="trip-tag drive">🚗 Drive from Lubbock</span>
+      </div>
+      <div class="trip-card">
+        <div class="trip-seq">Trip 05 · Mar 3–5</div>
+        <div class="trip-city">Columbus</div>
+        <div class="trip-state">Georgia</div>
+        <div class="trip-event">Parish Event</div>
+        <span class="trip-tag flight">✈ Via DFW Connection</span>
+      </div>
+      <div class="trip-card">
+        <div class="trip-seq">Trip 06 · Mar 6–8</div>
+        <div class="trip-city">Edmond</div>
+        <div class="trip-state">Oklahoma</div>
+        <div class="trip-event">St. John the Baptist — Growth Event</div>
+        <span class="trip-tag drive">🚗 Drive from Lubbock</span>
+      </div>
+      <div class="trip-card">
+        <div class="trip-seq">Trip 07 · Mar 13–17</div>
+        <div class="trip-city">Lake Ozark</div>
+        <div class="trip-state">Missouri</div>
+        <div class="trip-event">Parish Event</div>
+        <span class="trip-tag drive">🚗 Drive from Lubbock</span>
+      </div>
+      <div class="trip-card">
+        <div class="trip-seq">Trip 08 · Mar 20–24</div>
+        <div class="trip-city">Easton</div>
+        <div class="trip-state">Maryland</div>
+        <div class="trip-event">Ss. Peter &amp; Paul — Growth Event</div>
+        <span class="trip-tag flight">✈ Via DFW Connection</span>
+      </div>
+      <div class="trip-card">
+        <div class="trip-seq">Trip 09 · Mar 27–31</div>
+        <div class="trip-city">Milton</div>
+        <div class="trip-state">Massachusetts</div>
+        <div class="trip-event">Parish Event</div>
+        <span class="trip-tag flight">✈ Via DFW Connection</span>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p><strong>The pace isn't slowing down.</strong> Two more trips are already scheduled in April — Albany, NY (Apr 10–14) and Otisville, NY (Apr 24–28) — with the B2B Quarterly in Boston set for June. At the current trajectory, 2026 is on pace for <strong>40–50 parish trips</strong>. Every flight-based trip still connects through DFW.</p>
+    </div>
+  </section>
+
+  <!-- EXPENSE BREAKDOWN -->
+  <section class="section">
+    <span class="section-eyebrow">Ramp Expense Data — YTD 2026 (Completed Trips Only)</span>
+    <h2 class="section-title">What Travel Actually Costs.</h2>
+    <p class="section-body">The following expenses are pulled directly from Ramp and represent only completed trips in 2026. Future bookings are excluded. Data sourced from the Travel Card — Frequent Travelers fund and direct reimbursements.</p>
+
+    <div class="expense-chart">
+      <div class="expense-row">
+        <div class="expense-name">Transportation</div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width: 100%;"></div>
+        </div>
+        <div class="expense-amt">$2,516</div>
+      </div>
+      <div class="expense-row">
+        <div class="expense-name">Lodging</div>
+        <div class="bar-track">
+          <div class="bar-fill mid" style="width: 53%;"></div>
+        </div>
+        <div class="expense-amt">$1,325</div>
+      </div>
+      <div class="expense-row">
+        <div class="expense-name">Meals</div>
+        <div class="bar-track">
+          <div class="bar-fill low" style="width: 8%;"></div>
+        </div>
+        <div class="expense-amt">$52</div>
+      </div>
+    </div>
+
+    <div class="expense-total-row">
+      <div>
+        <div class="total-block-label">YTD 2026 Total</div>
+        <div class="total-block-val">$3,893</div>
+      </div>
+      <div style="text-align: right;">
+        <div class="total-block-label">Annualized Projection</div>
+        <div class="total-block-val purple">~$20,000+</div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p>At the current rate of approximately <strong>$390/week in travel spend</strong>, the annualized projection exceeds $20,000 — nearly a third of my current salary. Below, we break down exactly what that looks like trip by trip — and what it would look like from Dallas.</p>
+    </div>
+  </section>
+
+  <!-- THE PROBLEM -->
+  <section class="section">
+    <span class="section-eyebrow">The Core Issue</span>
+    <h2 class="section-title">Lubbock Is a Bottleneck.</h2>
+    <p class="section-body">Lubbock Preston Smith International Airport (LBB) has limited direct routes. Nearly every flight to an East Coast, Midwest, or non-Texas destination requires a connecting stop — almost always through Dallas/Fort Worth. This creates a compounding tax on every trip I take for Hallow.</p>
+
+    <div class="two-col">
+      <div class="box">
+        <div class="box-icon">⏱</div>
+        <div class="box-title">Added Time on Every Trip</div>
+        <div class="box-text">Each connecting flight through DFW adds 2–4 hours per trip — time not spent with parish partners, preparing to lead events, or recovering between back-to-back weeks on the road.</div>
+        <ul class="fact-list">
+          <li><span class="arrow">→</span> LBB→DFW flight + layover: ~1.5–2.5 hrs added each way</li>
+          <li><span class="arrow">→</span> 6 of 9 trips in 2026 required a DFW connection</li>
+          <li><span class="arrow">→</span> Est. 20+ hours lost to connecting travel YTD</li>
+          <li><span class="arrow">→</span> Limited flight windows = less flexible scheduling</li>
+        </ul>
+      </div>
+      <div class="box dark">
+        <div class="box-icon">💸</div>
+        <div class="box-title">An Avoidable Company Cost</div>
+        <div class="box-text">The LBB→DFW connecting segment is an additional expense on every flight-based trip — a cost that wouldn't exist if I were based at a major hub like DFW.</div>
+        <ul class="fact-list">
+          <li><span class="arrow">→</span> Avg connecting round trip: $175–$300</li>
+          <li><span class="arrow">→</span> 6 connecting trips in 2026 YTD: ~$1,050–$1,800</li>
+          <li><span class="arrow">→</span> Annualized (30 flight trips/yr): ~$5,000–$9,000</li>
+          <li><span class="arrow">→</span> All of it disappears with a DFW address</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- DFW SOLUTION -->
+  <section class="section">
+    <span class="section-eyebrow">The Solution</span>
+    <h2 class="section-title">Why DFW Changes the Math.</h2>
+    <p class="section-body">Dallas/Fort Worth International Airport is one of the most connected airports in the world. For a role built around reaching parishes across the entire United States, it is the ideal base of operations — and arguably the most strategic home city I could be in for this job.</p>
+
+    <div class="two-col">
+      <div>
+        <ul class="check-list">
+          <li><span class="chk">✓</span> Direct flights to virtually every major U.S. city — no more connecting hops</li>
+          <li><span class="chk">✓</span> American Airlines' primary hub — Hallow's carrier of record</li>
+          <li><span class="chk">✓</span> Greater scheduling flexibility and more booking options</li>
+          <li><span class="chk">✓</span> Central time zone — optimal for team communication coast to coast</li>
+          <li><span class="chk">✓</span> Better rested and more prepared when I arrive at parish events</li>
+          <li><span class="chk">✓</span> Saves the company an estimated $5,000–$9,000/year in connecting flight costs</li>
+          <li><span class="chk">✓</span> Access to the DFW Catholic market — one of the largest in the country</li>
+          <li><span class="chk">✓</span> Easier to host or attend in-person team meetups</li>
+        </ul>
+      </div>
+      <div class="box" style="background: var(--gray-50);">
+        <div style="font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--gray-500); margin-bottom: 28px;">DFW Airport — at a Glance</div>
+        <div class="stat-stacked">
+          <div class="stat-stacked-item">
+            <div class="stat-big">#4</div>
+            <div class="stat-caption">Busiest airport in the U.S. by total operations</div>
+          </div>
+          <div class="stat-stacked-item">
+            <div class="stat-big black">200+</div>
+            <div class="stat-caption">Nonstop domestic destinations served</div>
+          </div>
+          <div class="stat-stacked-item">
+            <div class="stat-big black">AA Hub</div>
+            <div class="stat-caption">American Airlines' global headquarters &amp; primary hub</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COST OF LIVING -->
+  <section class="section">
+    <span class="section-eyebrow">Cost of Living Analysis</span>
+    <h2 class="section-title">What the Move Costs Me.</h2>
+    <p class="section-body">Lubbock is one of the most affordable cities in Texas. Dallas is substantially more expensive. For a 1-bedroom apartment or studio — the minimum to live and work effectively — the monthly gap is significant and the annual impact is material on a $65,000 salary.</p>
+
+    <div class="cost-grid">
+      <div class="cost-panel">
+        <div class="cost-panel-head">Current — Lubbock, TX</div>
+        <div class="cost-panel-body">
+          <div class="cost-row"><span class="cost-k">1BR Average Rent</span><span class="cost-v">~$850 / mo</span></div>
+          <div class="cost-row"><span class="cost-k">Annual Rent</span><span class="cost-v">~$10,200</span></div>
+          <div class="cost-row"><span class="cost-k">Cost of Living Index</span><span class="cost-v">78 (well below avg)</span></div>
+          <div class="cost-row"><span class="cost-k">Airport Connectivity</span><span class="cost-v">Limited — LBB</span></div>
+          <div class="cost-row"><span class="cost-k">Current Salary</span><span class="cost-v">$65,000</span></div>
+          <div class="cost-row total"><span class="cost-k">Take-Home After Rent</span><span class="cost-v">~$54,800</span></div>
+        </div>
+      </div>
+      <div class="cost-panel purple-panel">
+        <div class="cost-panel-head">Proposed — DFW Metroplex, TX</div>
+        <div class="cost-panel-body">
+          <div class="cost-row"><span class="cost-k" style="color: var(--gray-700);">1BR Average Rent</span><span class="cost-v">~$1,450 / mo</span></div>
+          <div class="cost-row"><span class="cost-k" style="color: var(--gray-700);">Annual Rent</span><span class="cost-v">~$17,400</span></div>
+          <div class="cost-row"><span class="cost-k" style="color: var(--gray-700);">Cost of Living Index</span><span class="cost-v">103 (national avg)</span></div>
+          <div class="cost-row"><span class="cost-k" style="color: var(--gray-700);">Airport Connectivity</span><span class="cost-v">Best-in-class — DFW</span></div>
+          <div class="cost-row"><span class="cost-k" style="color: var(--gray-700);">Required Salary</span><span class="cost-v">$75,000–$85,000</span></div>
+          <div class="cost-row total"><span class="cost-k" style="color: var(--gray-700);">Take-Home After Rent</span><span class="cost-v">~$59,600–$69,600</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p>The housing cost difference alone is <strong>~$7,200/year</strong>. When broader cost-of-living differences are factored in (groceries, transportation, utilities), the total delta is closer to <strong>$9,000–$12,000/year</strong>. A salary adjustment in the $10,000–$20,000 range doesn't just make Dallas affordable — it makes it sustainable for someone doing this job at a high level, week after week.</p>
+    </div>
+  </section>
+
+  <!-- ROI / FINANCIAL CASE -->
+  <section class="section">
+    <span class="section-eyebrow">The Business Case</span>
+    <h2 class="section-title">This Investment Pays for Itself.</h2>
+    <p class="section-body">When the cost of eliminated connecting flights is accounted for, the net cost of a salary adjustment is significantly lower than the number on the contract. The trip-by-trip analysis below quantifies exactly what that looks like against 2026 actuals.</p>
+
+    <div class="roi-grid">
+      <div class="roi-card light">
+        <div class="roi-eyebrow">Estimated Annual Connecting Flight Cost (Current)</div>
+        <div class="roi-big">$5K–9K</div>
+        <div class="roi-note">Based on approximately 25–30 flight-based trips per year at an estimated $175–$300 per LBB→DFW round-trip connection. This full overhead is broken down trip by trip in the analysis below.</div>
+      </div>
+      <div class="roi-card purple-card">
+        <div class="roi-eyebrow">Net Additional Cost to Company (After Savings)</div>
+        <div class="roi-big">$1K–5K</div>
+        <div class="roi-note">A $10,000 raise, offset by $5,000–$9,000 in eliminated connecting flights, results in a <strong>net cost of $1,000–$5,000/year</strong> — a fraction of the raise amount — for a significantly more operationally effective team member.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE BUSINESS DECISION: TRIP-BY-TRIP COMPARISON -->
+  <section class="section">
+    <span class="section-eyebrow">The Business Decision</span>
+    <h2 class="section-title">A Smarter Allocation of the Same Budget.</h2>
+    <p class="section-body">What looks like a raise is really a reallocation. Hallow is already spending money on every connecting flight, every extra hotel night, every mileage reimbursement that comes with operating out of Lubbock. Moving me to DFW doesn't add cost — it redirects it. Below is the proof, trip by trip.</p>
+
+    <div class="compare-kpi-row">
+      <div class="compare-kpi">
+        <div class="compare-kpi-eyebrow">Current Annual Travel Overhead</div>
+        <div class="compare-kpi-val">~$20K+</div>
+        <div class="compare-kpi-desc">Projected full-year spend at current pace from Lubbock, including connecting segments, hotel nights, mileage, and car rentals.</div>
+      </div>
+      <div class="compare-kpi purple">
+        <div class="compare-kpi-eyebrow">DFW Optimized Travel</div>
+        <div class="compare-kpi-val">~$11–13K</div>
+        <div class="compare-kpi-desc">Same trips modeled from DFW — direct flights, standard hotel, car where needed. No connecting segment. No airport mileage.</div>
+      </div>
+      <div class="compare-kpi purple">
+        <div class="compare-kpi-eyebrow">Annual Savings to Hallow</div>
+        <div class="compare-kpi-val">~$7–9K</div>
+        <div class="compare-kpi-desc">The overhead that disappears when I'm based at a direct-route hub. This is the offset against any salary adjustment.</div>
+      </div>
+    </div>
+
+    <div class="chart-wrap">
+      <canvas id="tripCompareChart"></canvas>
+      <p class="chart-note">LBB figures blend confirmed Ramp reimbursements with estimates for full itinerary segments (connecting legs, return flights) not individually itemized. DFW model reflects direct booking averages for each destination market. All estimates based on 2026 actuals.</p>
+    </div>
+
+    <div class="roi-grid" style="margin-top: 44px;">
+      <div class="roi-card light">
+        <div class="roi-eyebrow">If Nothing Changes — LBB</div>
+        <div class="roi-big">~$85K</div>
+        <div class="roi-note">Salary $65,000 + Annual travel overhead $20,000+ = Total annual Hallow spend. Does not include the productivity cost of 20+ hours lost to connecting delays, or the scheduling inflexibility of a low-connectivity airport.</div>
+      </div>
+      <div class="roi-card purple-card">
+        <div class="roi-eyebrow">After the Move — DFW</div>
+        <div class="roi-big">~$86–96K</div>
+        <div class="roi-note">Salary $75,000–$85,000 + Optimized travel ~$11,000–$13,000. Net delta from current: <strong>as little as $1,000–$3,000/year</strong> — for a fully DFW-based, always-available, direct-route employee operating at full efficiency.</div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p>The raise doesn't cost Hallow $10,000–$20,000. It costs Hallow <strong>$1,000–$3,000</strong> — the gap between what you save on travel overhead and what you add to salary. <strong>Everything else is already being spent.</strong></p>
+    </div>
+  </section>
+
+  <!-- THE ASK -->
+  <section class="ask-wrap">
+    <div class="ask-eyebrow">The Request</div>
+    <h2 class="ask-headline">A salary adjustment<br>of <em>$10,000–$20,000.</em></h2>
+    <p class="ask-body">My compensation review is scheduled for June 2026. I'm presenting this now to give leadership the time to consider it properly — not as an ultimatum, but as an honest conversation that I believe serves both me and Hallow. I'm deeply committed to this work and to the parishes we serve. I want to do it from a place that's sustainable, accessible, and set up for the long term.</p>
+
+    <div class="salary-grid">
+      <div class="salary-card">
+        <div class="salary-card-val">$75K</div>
+        <div class="salary-card-label">Minimum viable. Covers the core rent delta and makes the move feasible.</div>
+      </div>
+      <div class="salary-card highlight">
+        <div class="salary-card-val">$80K</div>
+        <div class="salary-card-label">Target. Reflects DFW cost of living, travel demands, and operational value created.</div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-val">$85K</div>
+        <div class="salary-card-label">Full ask. Accounts for growth trajectory, increased responsibility, and full parity.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-logo">Hallow</div>
+    <div class="footer-info">Bryce McWhirter &nbsp;·&nbsp; Parish Partnerships &nbsp;·&nbsp; bryce@hallow.app &nbsp;·&nbsp; April 2026</div>
+  </footer>
+
+  <script>
+    (function() {
+      var ctx = document.getElementById('tripCompareChart').getContext('2d');
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: [
+            'Dayton, OH',
+            'Saint Paul, MN',
+            'Grand Rapids, MI',
+            'Santa Fe, NM',
+            'Columbus, GA',
+            'Edmond, OK',
+            'Lake Ozark, MO',
+            'Easton, MD',
+            'Milton, MA'
+          ],
+          datasets: [
+            {
+              label: 'LBB — Current Cost',
+              data: [620, 490, 710, 430, 480, 395, 755, 775, 650],
+              backgroundColor: '#94939e',
+              borderRadius: 4,
+              borderSkipped: false,
+            },
+            {
+              label: 'DFW — Optimized Cost',
+              data: [400, 315, 490, 310, 320, 180, 540, 545, 420],
+              backgroundColor: '#6D0EC1',
+              borderRadius: 4,
+              borderSkipped: false,
+            }
+          ]
+        },
+        options: {
+          indexAxis: 'x',
+          responsive: true,
+          maintainAspectRatio: false,
+          layout: { padding: { top: 2, bottom: 2, left: 0, right: 0 } },
+          plugins: {
+            legend: {
+              position: 'top',
+              labels: {
+                font: { family: "'Inter', sans-serif", size: 11, weight: '600' },
+                color: '#444444',
+                padding: 10,
+                usePointStyle: true,
+                pointStyle: 'rect',
+              }
+            },
+            tooltip: {
+              callbacks: {
+                label: function(c) {
+                  var savings = [620,490,710,430,480,395,755,775,650][c.dataIndex] - [400,315,490,310,320,180,540,545,420][c.dataIndex];
+                  if (c.datasetIndex === 1) {
+                    return ['  DFW Optimal: $' + c.raw.toLocaleString(), '  Saves: $' + savings.toLocaleString()];
+                  }
+                  return '  LBB Actual: $' + c.raw.toLocaleString();
+                }
+              }
+            }
+          },
+          scales: {
+            x: {
+              ticks: {
+                font: { family: "'Inter', sans-serif", size: 10, weight: '500' },
+                color: '#444444',
+                maxRotation: 35,
+              },
+              grid: { display: false },
+              border: { display: false }
+            },
+            y: {
+              ticks: {
+                callback: function(v) { return '$' + v; },
+                font: { family: "'Inter', sans-serif", size: 10 },
+                color: '#888888',
+              },
+              grid: { color: 'rgba(0,0,0,0.06)' },
+              border: { display: false }
+            }
+          }
+        }
+      });
+    })();
+  </script>
+
+</body>
+</html>

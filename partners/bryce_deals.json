@@ -1,0 +1,904 @@
+{
+  "owner": "Bryce McWhirter",
+  "email": "bryce@hallow.app",
+  "owner_id": 83821452,
+  "pulled_at": "2026-03-31",
+  "total_deals": 44,
+  "deals": [
+    {
+      "id": "56770137612",
+      "name": "Our Lady of Victory (SD) Expansion '26-'30",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 34000,
+      "closedate": "2026-02-25",
+      "createdate": "2026-02-20",
+      "last_modified": "2026-03-31",
+      "pqr_score": null,
+      "contacts": [
+        {"first_name": "Rechelle", "last_name": "Dissing", "email": "rechelle@olvictorysd.org", "phone": null, "title": "Business Manager"},
+        {"first_name": "Dana", "last_name": "Webskowski", "email": "dana@olvictorysd.org", "phone": "605-361-1600 ext. 2268", "title": null}
+      ],
+      "complimentary_promo_code": "OLVictorySDEP2627free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "8097"
+    },
+    {
+      "id": "55757943730",
+      "name": "St. Michael's Mulvane (KS) Growth '26-'28",
+      "pipeline": "109690430",
+      "dealstage": "196439457",
+      "amount": 10000,
+      "closedate": "2026-02-24",
+      "createdate": "2026-02-08",
+      "last_modified": "2026-03-31",
+      "pqr_score": null,
+      "contacts": [
+        {"first_name": "Joanne", "last_name": "NeSmith", "email": "joanne@stmichaelmulvane.org", "phone": null, "title": null},
+        {"first_name": "Chris", "last_name": "Wyant", "email": "thewynots@outlook.com", "phone": "3166481211", "title": null},
+        {"first_name": "Fr. Curtis", "last_name": "Robertson", "email": "frrobertson@stmichaelmulvane.org", "phone": "316-777-4221", "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "StMichaelKSGP2627free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "12755"
+    },
+    {
+      "id": "55473820721",
+      "name": "St. Paul (Valparaiso, IN) Expansion Parish",
+      "pipeline": "745978996",
+      "dealstage": "1084694105",
+      "amount": 0,
+      "closedate": null,
+      "createdate": "2026-02-05",
+      "last_modified": "2026-03-31",
+      "pqr_score": "5 – Neutral",
+      "contacts": [
+        {"first_name": "Trina", "last_name": "Bobrowski", "email": "tbobrowski@saintpaulvalpo.org", "phone": "+12194644831", "title": "Media & Wedding Coordinator"},
+        {"first_name": "Fr. Roque", "last_name": "Meraz", "email": "rmeraz@saintpaulvalpo.org", "phone": "+12194644831", "title": "Associate Pastor"},
+        {"first_name": "Fr. Doug", "last_name": "Mayer", "email": "pastor@saintpaulvalpo.org", "phone": "+12194644831", "title": "Pastor"}
+      ],
+      "complimentary_promo_code": null,
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "4954"
+    },
+    {
+      "id": "54956502797",
+      "name": "St. Paul Roman Catholic Parish (WI) - '26-'28 Growth + RE Program Parish Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 11400,
+      "closedate": "2026-01-30",
+      "createdate": "2026-01-28",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "Stacy", "last_name": "Stubbe", "email": "dre@stpaulmosinee.org", "phone": "(715) 693-2675", "title": "DRE"},
+        {"first_name": "Fr. Aaron", "last_name": "Becker", "email": "abecker@diolclergy.org", "phone": null, "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "StPaulRomanWIGP2627Free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "9311"
+    },
+    {
+      "id": "53696571498",
+      "name": "Our Lady of The Lake (MO) - '26-'28 Growth Parish Partnership (Lent Start)",
+      "pipeline": "109690430",
+      "dealstage": "1048951728",
+      "amount": 11500,
+      "closedate": "2026-01-13",
+      "createdate": "2026-01-13",
+      "last_modified": "2026-03-31",
+      "pqr_score": "7 – Engaged",
+      "contacts": [
+        {"first_name": "Dcn. James", "last_name": "Hankins", "email": "jimhankins@hotmail.com", "phone": "(915) 490-5762", "title": "Deacon"},
+        {"first_name": "Kelly", "last_name": "Hamrin", "email": "office@ourladylakeozark.org", "phone": "+15733652241", "title": null}
+      ],
+      "complimentary_promo_code": "OLLakeMOGP2627Free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "5595"
+    },
+    {
+      "id": "52851181425",
+      "name": "Holy Name Of Jesus '25 - '29 Parish Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951727",
+      "amount": 20400,
+      "closedate": "2025-12-30",
+      "createdate": "2025-12-30",
+      "last_modified": "2026-03-31",
+      "pqr_score": "7 – Engaged",
+      "contacts": [
+        {"first_name": "Fr. Michael", "last_name": "Palazzo", "email": "hnojotisville@frontiernet.net", "phone": "8453861320", "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "HolyNameofJesusNYGP2529free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "10401"
+    },
+    {
+      "id": "52036389909",
+      "name": "St. James Catholic Church (TX) - Lent '26-'28 Growth + RE Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951727",
+      "amount": 11400,
+      "closedate": "2026-01-08",
+      "createdate": "2025-12-18",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "John", "last_name": "Kiser", "email": "jkiser@saintjamescc.org", "phone": "(501) 658-7031", "title": "Head of the Parish Council"},
+        {"first_name": "Kelly", "last_name": "Roybal", "email": "info@saintjamescc.org", "phone": null, "title": null}
+      ],
+      "complimentary_promo_code": "StJamesTXGP2627Free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "9829"
+    },
+    {
+      "id": "52037683997",
+      "name": "Prince of Peace Catholic Church (AL) - Lent '26 - '29 Expansion Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 27405,
+      "closedate": "2025-12-19",
+      "createdate": "2025-12-17",
+      "last_modified": "2026-03-31",
+      "pqr_score": "7 – Engaged",
+      "contacts": [
+        {"first_name": "Alex", "last_name": "Kubik", "email": "alex.kubik@popcatholic.org", "phone": "+12058229125", "title": "Director of Parish Life"}
+      ],
+      "complimentary_promo_code": "PrinceofPeaceALEP2629free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "869"
+    },
+    {
+      "id": "52037106988",
+      "name": "Saint Mary Catholic Church (OK) - Lent '26-'29 Growth Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951725",
+      "amount": 14580,
+      "closedate": "2025-12-30",
+      "createdate": "2025-12-17",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "Desiree", "last_name": "Wathor", "email": "office@smsponcacity.org", "phone": null, "title": "Parish Secretary"},
+        {"first_name": "Fr. Alex", "last_name": "Kroll", "email": "father.alex@smsponcacity.org", "phone": "(580) 382-6007", "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "StMaryOKGP2627",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "6294"
+    },
+    {
+      "id": "51514670372",
+      "name": "St. Rose of Lima Catholic Church (CA) '26 - '28 Growth Parish Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 9500,
+      "closedate": "2025-12-09",
+      "createdate": "2025-12-09",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "Josephine", "last_name": "Tarampi", "email": "jo@strosesv.com", "phone": null, "title": "Office Manager"},
+        {"first_name": "Tami", "last_name": "Whalen", "email": "tami_re@strosesv.com", "phone": "+18185686296", "title": "Director of Religious Education"}
+      ],
+      "complimentary_promo_code": "StRoseofLimaCAGP2628",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "3227"
+    },
+    {
+      "id": "50384518231",
+      "name": "St. Gabriel 25 - 27 (MI)",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 10000,
+      "closedate": "2025-11-26",
+      "createdate": "2025-11-24",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "Lisa", "last_name": "Nash", "email": "parish@stgabrielida.org", "phone": "+17346549241", "title": null},
+        {"first_name": "Christopher", "last_name": "Muer", "email": "muer.christopher@aod.org", "phone": "(313) 701-7064", "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "StGabrielMIGP2527free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "3675"
+    },
+    {
+      "id": "47880436856",
+      "name": "Blessed Trinity Family Of Parishes (OH) Growth '26-'28",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 9000,
+      "closedate": "2025-11-25",
+      "createdate": "2025-11-02",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "Mike", "last_name": "Burke", "email": "mburke@theblessedtrinityfamily.org", "phone": "(513) 385-8010", "title": "Director of Evangelization"}
+      ],
+      "complimentary_promo_code": "BlessedTrinityOHGP2627Free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "10962"
+    },
+    {
+      "id": "46017263422",
+      "name": "Santa Maria De La Paz (NM) '25 - '29 Growth Parish Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951728",
+      "amount": 17460,
+      "closedate": "2025-10-22",
+      "createdate": "2025-10-15",
+      "last_modified": "2026-03-31",
+      "pqr_score": "8 – Strong",
+      "contacts": [
+        {"first_name": "Tommy", "last_name": "Martinez", "email": "finance@smdlp.org", "phone": null, "title": null},
+        {"first_name": "Vanessa", "last_name": "Madera", "email": "familylife@smdlp.org", "phone": "505-629-4212", "title": "RE Director and Family Life"},
+        {"first_name": "Maria", "last_name": "Levine", "email": "mlevine@smdlp.org", "phone": "+15056291328", "title": "Ministry"}
+      ],
+      "complimentary_promo_code": "SantaMariaDLPNMGP2529",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "1944"
+    },
+    {
+      "id": "45416461454",
+      "name": "Holy Family (WA) '25 - '26 Growth Parish Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951725",
+      "amount": 5000,
+      "closedate": "2025-10-22",
+      "createdate": "2025-10-07",
+      "last_modified": "2026-03-31",
+      "pqr_score": "7 – Engaged",
+      "contacts": [
+        {"first_name": "Francois", "last_name": "Burianek", "email": "swa68@hotmail.com", "phone": null, "title": null},
+        {"first_name": "Dave", "last_name": "Laidler", "email": "dave@hfkparish.org", "phone": "(425) 822-0295", "title": "Pastoral Associate"}
+      ],
+      "complimentary_promo_code": "HolyFamilyWAGP2526free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "1642"
+    },
+    {
+      "id": "45197643620",
+      "name": "St. Henry Parish (OH) - '26-'28 Growth + RE Program Parish Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951727",
+      "amount": 12000,
+      "closedate": "2025-10-31",
+      "createdate": "2025-10-03",
+      "last_modified": "2026-03-31",
+      "pqr_score": "9 – Thriving",
+      "contacts": [
+        {"first_name": "Erik", "last_name": "Bonilla", "email": "erik@sthenrycluster.com", "phone": "419-763-5231", "title": "Director of Evangelization & Communications"},
+        {"first_name": "Josh", "last_name": "Wendel", "email": "business@sthenrycluster.com", "phone": null, "title": "Director of Administration"},
+        {"first_name": "Father Andrew", "last_name": "Hess", "email": "pastor@sthenrycluster.com", "phone": "740-896-2207", "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "StHenryOHGP2628free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "12000"
+    },
+    {
+      "id": "45092499762",
+      "name": "St. Thomas the Apostle (ND) - '25-'29 Parish Growth Partnership (Advent Launch)",
+      "pipeline": "109690430",
+      "dealstage": "1048951727",
+      "amount": 16500,
+      "closedate": "2025-10-09",
+      "createdate": "2025-10-02",
+      "last_modified": "2026-03-31",
+      "pqr_score": "5 – Neutral",
+      "contacts": [
+        {"first_name": "Fr. Corey", "last_name": "Nelson", "email": "cnelson@bismarckdiocese.com", "phone": "7016642445", "title": "Pastor"},
+        {"first_name": "Sheila", "last_name": "Sabinash", "email": "sheilasabinash@gmail.com", "phone": "(251) 751-5588", "title": "Business Manager"}
+      ],
+      "complimentary_promo_code": "StThomas-ND-GP-2529-free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "10912"
+    },
+    {
+      "id": "44608489321",
+      "name": "Saint Agatha '25-'26 (MA) - Growth '25-'26",
+      "pipeline": "109690430",
+      "dealstage": "1048951727",
+      "amount": 5250,
+      "closedate": "2025-11-10",
+      "createdate": "2025-09-26",
+      "last_modified": "2026-03-31",
+      "pqr_score": "7 – Engaged",
+      "contacts": [
+        {"first_name": "Bill", "last_name": "Murphy", "email": "frbillmurphy@gmail.com", "phone": null, "title": "Priest at Saint Agatha"},
+        {"first_name": "Matt", "last_name": "Chick", "email": "mchick@stagathaparish.org", "phone": null, "title": "Faith Formation"},
+        {"first_name": "Bob", "last_name": "Ringuette", "email": "rringuette@stagathaparish.org", "phone": null, "title": "Director of Operations"},
+        {"first_name": "Fr. Brian", "last_name": "McHugh", "email": "frbrian@stagathaparish.org", "phone": null, "title": null},
+        {"first_name": "Colleen", "last_name": "Chave", "email": "chave.family@verizon.net", "phone": "+16176530862", "title": "Parish Pastoral Council member"},
+        {"first_name": "Bob", "last_name": "Ringuette", "email": "operations@stagathaparish.org", "phone": null, "title": "Director of Finance and Operations"},
+        {"first_name": "Renalyn", "last_name": "Te", "email": "renalyn.te@stagathaparish.org", "phone": null, "title": "Director of Enrollment/Tuition"},
+        {"first_name": "Barbara", "last_name": "Smith", "email": "bsmith@stagathaparish.org", "phone": null, "title": "Assistant Principal"},
+        {"first_name": "Gregg", "last_name": "Chambers", "email": "gchambers@stagathaparish.org", "phone": null, "title": "Principal"}
+      ],
+      "complimentary_promo_code": "StAgathaMAGP2526",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "2260"
+    },
+    {
+      "id": "44587520574",
+      "name": "St. Mary of the Assumption Parish - Advent '25-'27 Growth + RE Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951725",
+      "amount": 12000,
+      "closedate": "2025-10-17",
+      "createdate": "2025-09-26",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "Jennifer", "last_name": "LaFrankie", "email": "jenlafrankie@yahoo.com", "phone": null, "title": null},
+        {"first_name": "Denise", "last_name": "Troise", "email": "finance@smachurch.com", "phone": null, "title": null},
+        {"first_name": "Daniel", "last_name": "Digiacobbe", "email": "manager@smachurch.com", "phone": "+13022397100 ext 11", "title": "Business Manager"}
+      ],
+      "complimentary_promo_code": "StMaryAssumptionDEGP2527free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "3712"
+    },
+    {
+      "id": "44474090075",
+      "name": "St. Columba Parish (CO) 25-29 Growth w/RE Parish Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951728",
+      "amount": 18720,
+      "closedate": "2025-09-29",
+      "createdate": "2025-09-24",
+      "last_modified": "2026-03-31",
+      "pqr_score": "8 – Strong",
+      "contacts": [
+        {"first_name": "Julie", "last_name": "Romero", "email": "jromero@stcolumbacatholic.org", "phone": "(337) 789-4068", "title": "Parish Director"},
+        {"first_name": "Fr. John", "last_name": "Jatau", "email": "parishoffice@stcolumbacatholic.org", "phone": "+19702470044", "title": null}
+      ],
+      "complimentary_promo_code": "StColumbaCO2529GP",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "1402"
+    },
+    {
+      "id": "43491441755",
+      "name": "Holy Name (WY) '25 - '26 Growth Parish Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951725",
+      "amount": 4500,
+      "closedate": "2025-10-20",
+      "createdate": "2025-09-08",
+      "last_modified": "2026-03-31",
+      "pqr_score": "7 – Engaged",
+      "contacts": [
+        {"first_name": "Monique", "last_name": "Barron", "email": "mbarron@dcwy.org", "phone": "(307) 672-2848", "title": "Director of Faith Formation (Adults & Catechesis)"},
+        {"first_name": "Fr. Glenn", "last_name": "Whewell", "email": "gwhewell@dcwy.org", "phone": "(307) 674-4641", "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "HolyNameSheridanWYGR2526",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "3053"
+    },
+    {
+      "id": "42712886544",
+      "name": "St. Rose Philippine Duchesne (AZ) '25 - '26 Growth Parish Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 5100,
+      "closedate": "2025-08-29",
+      "createdate": "2025-08-22",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "Matthew", "last_name": "Ficarra", "email": "mficarra@stroseanthem.com", "phone": "(623) 307-8266", "title": "Director of Music & Media"},
+        {"first_name": "Tom", "last_name": "Henrich", "email": "thenrich@stroseanthem.com", "phone": null, "title": "Office Manager"},
+        {"first_name": "Renee", "last_name": "Hunsaker", "email": "rhunsaker@stroseanthem.com", "phone": "(623) 465-9740", "title": "Director of Religious Education"}
+      ],
+      "complimentary_promo_code": "StRose-AZ-GP-2526-Free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "2426"
+    },
+    {
+      "id": "40472660748",
+      "name": "St Bartholomew Catholic Church (MN) - 55391 - '25-'26 GP*",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 4600,
+      "closedate": "2025-07-31",
+      "createdate": "2025-07-18",
+      "last_modified": "2026-03-31",
+      "pqr_score": "8 – Strong",
+      "contacts": [
+        {"first_name": "James", "last_name": "Shackelford", "email": "jshackelford@st-barts.org", "phone": "(952) 473-6601", "title": "Director of Ongoing Formation and Discipleship"}
+      ],
+      "complimentary_promo_code": "Bartholomew-MN-GR-2526",
+      "parish_size": 800,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/4823/details/",
+      "community_id": "4823"
+    },
+    {
+      "id": "40381115535",
+      "name": "St. Michael the Archangel Catholic Church (MI) '25 - '27 Parish (Bundle) Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951725",
+      "amount": 7650,
+      "closedate": "2025-09-26",
+      "createdate": "2025-07-17",
+      "last_modified": "2026-03-31",
+      "pqr_score": "8 – Strong",
+      "contacts": [
+        {"first_name": "Msgr. William", "last_name": "Tindall", "email": "msgrtindall@livoniastmichael.org", "phone": "(734) 261-1455", "title": "Pastor"},
+        {"first_name": "Patrick", "last_name": "Cummings", "email": "pcummings@livoniastmichael.org", "phone": "734-261-1455 ext. 215", "title": "Director of Parish Ministry"},
+        {"first_name": "Megan", "last_name": "Steffes", "email": "msteffes@livoniastmichael.org", "phone": null, "title": null},
+        {"first_name": "John", "last_name": "Jouppi", "email": "jgjouppi@gmail.com", "phone": null, "title": null},
+        {"first_name": "Lauren", "last_name": "Waligora", "email": "lwaligora@livoniastmichael.org", "phone": null, "title": "Marketing and Communications Director"},
+        {"first_name": "Deb", "last_name": "Armstrong", "email": "darmstrong@livoniastmichael.org", "phone": "(734) 261-1455", "title": "Asst. Principal and DRE"},
+        {"first_name": "Nancy", "last_name": "Kuszczak", "email": "nkuszczak@livoniastmichael.org", "phone": "+17344217360", "title": "Principal"},
+        {"first_name": "Cynthia", "last_name": "Stempin", "email": "cstempin@livoniastmichael.org", "phone": "+17344217360", "title": "School Counselor"},
+        {"first_name": "Kathy", "last_name": "Nold", "email": "knold@livoniastmichael.org", "phone": "+17344217360", "title": "Principal"},
+        {"first_name": "Laurel", "last_name": "Marmul", "email": "lmarmul@livoniastmichael.org", "phone": "+17344217360", "title": "Assistant to the Principal"},
+        {"first_name": "Jennifer", "last_name": "Kakaley", "email": "jkakaley@livoniastmichael.org", "phone": "+17342611455", "title": "Parish Secretary"},
+        {"first_name": "Colleen", "last_name": "Jraiche", "email": "cjraiche@livoniastmichael.org", "phone": null, "title": null}
+      ],
+      "complimentary_promo_code": "StMichaelMIGP2527Free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "6704"
+    },
+    {
+      "id": "39654400316",
+      "name": "St. Helen Catholic Church (TX) - 77581 - '25-'26 - GP",
+      "pipeline": "109690430",
+      "dealstage": "1048951727",
+      "amount": 5000,
+      "closedate": "2025-07-08",
+      "createdate": "2025-07-03",
+      "last_modified": "2026-03-31",
+      "pqr_score": "7 – Engaged",
+      "contacts": [
+        {"first_name": "Nee", "last_name": "Opiela", "email": "nee@sthelenchurch.org", "phone": null, "title": null},
+        {"first_name": "Dcn. Darryl", "last_name": "Drenon", "email": "ddrenon@sthelenchurch.org", "phone": null, "title": "Business Manager"},
+        {"first_name": "Philip", "last_name": "Wilhite", "email": "frphilip@sthelenchurch.org", "phone": "+12814852421", "title": "Pastor"},
+        {"first_name": "Paul", "last_name": "Ambro", "email": "paul@sthelenchurch.org", "phone": "+12814852421", "title": "Director of Adult Faith Formation"}
+      ],
+      "complimentary_promo_code": "Helen-TX-GR-2526",
+      "parish_size": null,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/214/details/",
+      "community_id": "214"
+    },
+    {
+      "id": "39564182164",
+      "name": "Saint Ambrose of Woodbury Catholic Church (MN) - 55129 - '25-'29 - GR",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 16320,
+      "closedate": "2025-07-17",
+      "createdate": "2025-07-01",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "Erin", "last_name": "Weinzettel", "email": "eweinzettel@saintambrosecatholic.org", "phone": null, "title": "Director of Communications"},
+        {"first_name": "Matthew", "last_name": "Lasure", "email": "mlasure@saintambrosecatholic.org", "phone": null, "title": null},
+        {"first_name": "Fr. Sean", "last_name": "Mulcare", "email": "frsean@saintambrosecatholic.org", "phone": null, "title": "Associate"},
+        {"first_name": "Louise", "last_name": "Ryan", "email": "ryanlouise2@gmail.com", "phone": null, "title": null},
+        {"first_name": "Fr. Sam", "last_name": "Gilbertson", "email": null, "phone": "+16517683006", "title": "Parochial Vicar"},
+        {"first_name": "Fr. Peter", "last_name": "Williams", "email": null, "phone": "+16517683005", "title": "Pastor"},
+        {"first_name": "Kate", "last_name": "Noreen", "email": null, "phone": "+16517683015", "title": "DRE"},
+        {"first_name": "Justin", "last_name": "Kortuem", "email": "jkortuem@saintambrosecatholic.org", "phone": "+16517683020", "title": "Director of Evangelization"}
+      ],
+      "complimentary_promo_code": "Ambrose-MN-GR-2529",
+      "parish_size": 2500,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/4924/details/",
+      "community_id": "4924"
+    },
+    {
+      "id": "38548036715",
+      "name": "St. Anne Catholic Church (GA) - '25-'26 Growth Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951728",
+      "amount": 4644,
+      "closedate": "2025-06-18",
+      "createdate": "2025-06-06",
+      "last_modified": "2026-03-31",
+      "pqr_score": "8 – Strong",
+      "contacts": [
+        {"first_name": "Fr. Scott", "last_name": "Winchel", "email": "frwinchel@stanneweb.com", "phone": null, "title": "Pastor"},
+        {"first_name": "Kimberly", "last_name": "Kaup", "email": "kkaup@stanneweb.com", "phone": "+17065618678", "title": "Director of Stewardship"}
+      ],
+      "complimentary_promo_code": "Anne-GA-GR-2526",
+      "parish_size": 1200,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/2630/details/",
+      "community_id": "2630"
+    },
+    {
+      "id": "38443807050",
+      "name": "Saint Paul the Apostle (TX) - 78657 - '25-'28 - GR",
+      "pipeline": "109690430",
+      "dealstage": "1048951727",
+      "amount": 12155,
+      "closedate": "2025-06-30",
+      "createdate": "2025-06-04",
+      "last_modified": "2026-03-31",
+      "pqr_score": "5 – Neutral",
+      "contacts": [
+        {"first_name": "Lois", "last_name": null, "email": "lois@stpaulhsb.org", "phone": null, "title": null},
+        {"first_name": "Beth", "last_name": null, "email": "beth@stpaulhsb.org", "phone": null, "title": null},
+        {"first_name": "Mary", "last_name": null, "email": "mary@stpaulhsb.org", "phone": null, "title": null},
+        {"first_name": "Larry", "last_name": "Snyder", "email": "larry@stpaulhsb.org", "phone": null, "title": null},
+        {"first_name": "Fr. Don", "last_name": null, "email": "frdon@stpaulhsb.org", "phone": null, "title": null},
+        {"first_name": "Penny", "last_name": "Breedlove", "email": "penny@stpaulhsb.org", "phone": "+18305988342", "title": "Office Administrator"}
+      ],
+      "complimentary_promo_code": "Paul-TX-GR-2528",
+      "parish_size": null,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/6140/details/",
+      "community_id": "6140"
+    },
+    {
+      "id": "38114201138",
+      "name": "St. Clare (Roseville, CA) - 95747 - '25 - '26 - GP",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 4660,
+      "closedate": "2025-05-28",
+      "createdate": "2025-05-28",
+      "last_modified": "2026-03-31",
+      "pqr_score": "7 – Engaged",
+      "contacts": [
+        {"first_name": "Laura", "last_name": "Rios", "email": "childrensministry@stclareroseville.org", "phone": null, "title": null},
+        {"first_name": "Patty", "last_name": "Murphy", "email": "pattym@stclareroseville.org", "phone": "+19163033312", "title": "Parish Operations"},
+        {"first_name": "Fr. George", "last_name": "Snyder", "email": "gsnyderjr2002@yahoo.com", "phone": null, "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "Clare-CA-GR-2526",
+      "parish_size": null,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/2239/details/",
+      "community_id": "2239"
+    },
+    {
+      "id": "37180293893",
+      "name": "Pax Christi Church (CO) - 80124 - '25-'27 - EP",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 14880,
+      "closedate": "2025-05-23",
+      "createdate": "2025-05-14",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "Kelly", "last_name": "Schimmoller", "email": "kschimmoller@paxchristi.org", "phone": "+13037991036", "title": "Director of Stewardship"},
+        {"first_name": "Roberto", "last_name": "Chavez", "email": "rchavez@paxchristi.org", "phone": "+17204190132", "title": "Director of Evangelization"},
+        {"first_name": "Lisa", "last_name": "Walker", "email": "lwalker@paxchristi.org", "phone": "+17204190123", "title": "Business Manager"},
+        {"first_name": "Fr. Andrzej", "last_name": "Szczesnowicz", "email": "frandrzej@paxchristi.org", "phone": "+17204190122", "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "PaxChristi-CO-EX-2527",
+      "parish_size": 1300,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/1298/details/",
+      "community_id": "1298"
+    },
+    {
+      "id": "37164778035",
+      "name": "St. Clare of Assisi Parish (Canyon Country, CA) - 91351 - '25-'29 - GR",
+      "pipeline": "109690430",
+      "dealstage": "1048951728",
+      "amount": 18528,
+      "closedate": "2025-05-16",
+      "createdate": "2025-05-13",
+      "last_modified": "2026-03-31",
+      "pqr_score": "7 – Engaged",
+      "contacts": [
+        {"first_name": "Martina", "last_name": "Torres", "email": "m.torres@st-clare.org", "phone": "661.252.3353", "title": null},
+        {"first_name": "Nancy", "last_name": null, "email": "religiouseducation@st-clare.org", "phone": null, "title": null},
+        {"first_name": "Dora", "last_name": "Baez", "email": "ministeriohispano@st-clare.org", "phone": null, "title": null},
+        {"first_name": "Melody", "last_name": "Googooian", "email": "m.googooian@st-clare.org", "phone": "661-252-3353", "title": null},
+        {"first_name": "Marlon", "last_name": "Mateo", "email": "fr.m.mateo@st-clare.org", "phone": "(661) 252-3353", "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "Clare-CA-GR-2529",
+      "parish_size": null,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/8858/details/",
+      "community_id": "8858"
+    },
+    {
+      "id": "36773453838",
+      "name": "Our Lady of Angels (NY) '25-'27",
+      "pipeline": "109690430",
+      "dealstage": "1048951728",
+      "amount": 14400,
+      "closedate": "2025-05-20",
+      "createdate": "2025-05-05",
+      "last_modified": "2026-03-31",
+      "pqr_score": "7 – Engaged",
+      "contacts": [
+        {"first_name": "Rocco", "last_name": "Gentile", "email": "gentile@fontbonne.org", "phone": "(718) 745-3841", "title": "Principal"},
+        {"first_name": "Fr. Kevin", "last_name": "Abels", "email": "kabels@diobrook.org", "phone": "(718) 680-1010", "title": "Pastor"},
+        {"first_name": "Dineen", "last_name": "Riviezzo", "email": "dingrajoh2@yahoo.com", "phone": "+19179510222", "title": "Eucharist minister and lector"},
+        {"first_name": "Ann", "last_name": "Smyth", "email": "standrewreledu@gmail.com", "phone": "+17186801010", "title": "Pastoral Associate"}
+      ],
+      "complimentary_promo_code": "Angels-NY-EX-2527",
+      "parish_size": 1975,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/53/details/",
+      "community_id": "53"
+    },
+    {
+      "id": "36642713721",
+      "name": "Family40 (WA) - 98503 - '25-'29 - GP",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 16000,
+      "closedate": "2025-05-16",
+      "createdate": "2025-05-02",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "Chad", "last_name": "Lucero", "email": "chad@saintcolumbanyelm.org", "phone": "+13602260798", "title": "Youth Ministry and Confirmation"},
+        {"first_name": "Azelle", "last_name": "DeForrest", "email": "azelle@3hearts.org", "phone": "+13604910890 ext 1105", "title": "Administrative Assistant"},
+        {"first_name": "Kris", "last_name": "Baird", "email": "krisb@3hearts.org", "phone": "+13604910890 ext 1112", "title": "Administrative Assistant"},
+        {"first_name": "Fr. Bryan", "last_name": "Ochs", "email": "frbryan@3hearts.org", "phone": null, "title": "Pastor"},
+        {"first_name": "Jackie", "last_name": "Shirley", "email": "jackie@3hearts.org", "phone": "+13604910890 ext 1107", "title": "Chief of Staff"},
+        {"first_name": "Terry", "last_name": "Barber", "email": "terry@3hearts.org", "phone": "+13604910890", "title": "Deacon and Pastoral Care"}
+      ],
+      "complimentary_promo_code": "Family40-WA-GR-2529",
+      "parish_size": 1800,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/10596/details/",
+      "community_id": "10596"
+    },
+    {
+      "id": "36530622728",
+      "name": "St. Joseph Catholic Church (MS) - '25-'27 Parish Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 16740,
+      "closedate": "2025-05-29",
+      "createdate": "2025-04-29",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "Will", "last_name": "Foggo", "email": "deaconwill@stjosephstarkville.org", "phone": null, "title": "Deacon"},
+        {"first_name": "Shelley", "last_name": "Bock", "email": "shelley@stjosephstarkville.org", "phone": "+16623232257", "title": "Administrative Assistant"},
+        {"first_name": "Dawn", "last_name": "McGinley", "email": "dawn@stjosephstarkville.org", "phone": null, "title": "Retired Administrative Assistant"},
+        {"first_name": "Fr. Jason", "last_name": "Johnston", "email": "frjason@stjosephstarkville.org", "phone": "+16623232257", "title": "Pastor of St. Joseph Catholic Church + Chaplain"}
+      ],
+      "complimentary_promo_code": "Joseph-MS-EX-2527",
+      "parish_size": null,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/1756/details/",
+      "community_id": "1756"
+    },
+    {
+      "id": "35830660765",
+      "name": "Historic Albany Parish Network (NY) '25-'27",
+      "pipeline": "109690430",
+      "dealstage": "1048951727",
+      "amount": 8000,
+      "closedate": "2025-04-16",
+      "createdate": "2025-04-16",
+      "last_modified": "2026-03-31",
+      "pqr_score": "5 – Neutral",
+      "contacts": [
+        {"first_name": "Barbara", "last_name": "Koerner-Fox", "email": "barbara.koernerfox@rcda.org", "phone": "+15189654474", "title": "Operations Manager"},
+        {"first_name": "Fr. Rendell", "last_name": "Torres", "email": "rendell.torres@rcda.org", "phone": null, "title": "Rector"}
+      ],
+      "complimentary_promo_code": "Immaculate-NY-GR-2527, Immaculate-NY-GR-2627",
+      "parish_size": null,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/1036/details/",
+      "community_id": "1036"
+    },
+    {
+      "id": "35342515080",
+      "name": "Christ The King (NJ) '25-'27 Parish Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951728",
+      "amount": 16200,
+      "closedate": "2025-10-14",
+      "createdate": "2025-04-01",
+      "last_modified": "2026-03-31",
+      "pqr_score": "8 – Strong",
+      "contacts": [
+        {"first_name": "Abigail", "last_name": "Walsh", "email": "awalsh@ctkhaddonfield.org", "phone": "856-429-1600", "title": "Dir. of Liturgy and Music"},
+        {"first_name": "Kate", "last_name": "Braunstein", "email": "kbraunstein@ctkhaddonfield.org", "phone": null, "title": null},
+        {"first_name": "Dolores", "last_name": "Mozillo", "email": "religioused@ctkhaddonfield.org", "phone": "856-429-1600", "title": "Religious Ed teacher"},
+        {"first_name": "Fr. Jon", "last_name": "Thomas", "email": "jthomas@ctkhaddonfield.org", "phone": null, "title": "Pastor"},
+        {"first_name": "Jennifer", "last_name": "Barker", "email": "jlm310@comcast.net", "phone": "+16092174860", "title": "Pastoral Council Member"}
+      ],
+      "complimentary_promo_code": "ChristTheKingNJEP2527free",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "6533"
+    },
+    {
+      "id": "35106473872",
+      "name": "St. Philip the Apostle (AZ) - 85541 - '25 - '27 - GP",
+      "pipeline": "109690430",
+      "dealstage": "1048951728",
+      "amount": 8000,
+      "closedate": "2025-03-26",
+      "createdate": "2025-03-26",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "Tricia", "last_name": "Hale", "email": "thale@diocesetucson.org", "phone": null, "title": null},
+        {"first_name": "Sarah", "last_name": "Doerneman", "email": "youthministrypayson@gmail.com", "phone": "+19284741269", "title": "Director of Faith Formation"},
+        {"first_name": "Fr. Thomas", "last_name": "Quirk", "email": "tquirk@diocesetucson.org", "phone": "+19284742392", "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "Philip-AZ-GR-2527",
+      "parish_size": 500,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/11020/details/",
+      "community_id": "11020"
+    },
+    {
+      "id": "34564003504",
+      "name": "St. Paul (Valparaiso, IN) Expansion Parish '26-'30",
+      "pipeline": "109690430",
+      "dealstage": "196439580",
+      "amount": 8550,
+      "closedate": "2025-03-14",
+      "createdate": "2025-03-12",
+      "last_modified": "2026-03-31",
+      "pqr_score": "7 – Engaged",
+      "contacts": [
+        {"first_name": "Trina", "last_name": "Bobrowski", "email": "tbobrowski@saintpaulvalpo.org", "phone": "+12194644831", "title": "Media & Wedding Coordinator"},
+        {"first_name": "Fr. Roque", "last_name": "Meraz", "email": "rmeraz@saintpaulvalpo.org", "phone": "+12194644831", "title": "Associate Pastor"},
+        {"first_name": "Fr. Doug", "last_name": "Mayer", "email": "pastor@saintpaulvalpo.org", "phone": "+12194644831", "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "Paul-IN-EX-2526",
+      "parish_size": 1300,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/4954/details/",
+      "community_id": "4954"
+    },
+    {
+      "id": "34494866709",
+      "name": "St Michael the Archangel (KS) - 66224 - '25-'27 - GR",
+      "pipeline": "109690430",
+      "dealstage": "1048951728",
+      "amount": 8000,
+      "closedate": "2025-05-01",
+      "createdate": "2025-03-10",
+      "last_modified": "2026-03-31",
+      "pqr_score": "8 – Strong",
+      "contacts": [
+        {"first_name": "Nick", "last_name": "Johnson", "email": "nick.johnson@stmichaelcp.org", "phone": "+19134023921", "title": "Director of Discipleship"}
+      ],
+      "complimentary_promo_code": "Michael-KS-GR-2527",
+      "parish_size": 2000,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/662/details/",
+      "community_id": "662"
+    },
+    {
+      "id": "32673131667",
+      "name": "St. John the Baptist (OK) - Advent '25-'26 Growth Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951728",
+      "amount": 5500,
+      "closedate": "2025-04-30",
+      "createdate": "2025-01-28",
+      "last_modified": "2026-03-31",
+      "pqr_score": "8 – Strong",
+      "contacts": [
+        {"first_name": "Kasey", "last_name": "Holt", "email": "kholt@stjohn-catholic.org", "phone": null, "title": null},
+        {"first_name": "Jennifer", "last_name": "Dolf", "email": "jdolf@stjohn-catholic.org", "phone": "+14053400691", "title": "Business Manager"},
+        {"first_name": "Erin", "last_name": "Snow", "email": "esnow@stjohn-catholic.org", "phone": "+14053400691", "title": "Director of Mission and Ministries"}
+      ],
+      "complimentary_promo_code": "Baptist-OK-GP-2526-free",
+      "parish_size": 1200,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/1065/details/",
+      "community_id": "1065"
+    },
+    {
+      "id": "31711973272",
+      "name": "Our Lady of Consolation Parish Partnership (MI) '25-'28",
+      "pipeline": "109690430",
+      "dealstage": "1048951728",
+      "amount": 13005,
+      "closedate": "2025-07-23",
+      "createdate": "2025-01-08",
+      "last_modified": "2026-03-31",
+      "pqr_score": "9 – Thriving",
+      "contacts": [
+        {"first_name": "Josh", "last_name": "Hanson", "email": "jhanson@olcparish.net", "phone": "(616) 866-2577 ext. 210", "title": "Director of Catechetics"},
+        {"first_name": "Anna", "last_name": "Townshend", "email": "atownshend@olcparish.net", "phone": "+16168660931", "title": "Director of Communications"}
+      ],
+      "complimentary_promo_code": "Consolation-MI-GR-2528",
+      "parish_size": null,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/2816/details/",
+      "community_id": "2816"
+    },
+    {
+      "id": "31407586827",
+      "name": "Our Lady of Good Counsel (NJ) '25-'27 Parish Partnership Expansion",
+      "pipeline": "109690430",
+      "dealstage": "196439457",
+      "amount": 14400,
+      "closedate": "2025-01-31",
+      "createdate": "2025-01-03",
+      "last_modified": "2026-03-31",
+      "pqr_score": "3 – Struggling",
+      "contacts": [
+        {"first_name": "James", "last_name": "Flanagan", "email": "jflanagan@olgcnj.org", "phone": null, "title": "Finance and Human Resources Manager"},
+        {"first_name": "Fr. Jim", "last_name": "Grogan", "email": "frjim@olgcnj.org", "phone": "+18562350181", "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "GoodCounsel-NJ-EX-2527",
+      "parish_size": null,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/774/details/",
+      "community_id": "774"
+    },
+    {
+      "id": "29245256228",
+      "name": "St. Mary's Church (GA) - Advent '24-'26 Growth Partnership",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 8000,
+      "closedate": "2024-11-20",
+      "createdate": "2024-11-18",
+      "last_modified": "2026-03-31",
+      "pqr_score": "6 – Developing",
+      "contacts": [
+        {"first_name": "Mary", "last_name": "Andersen", "email": "mary.elizabeth.andersen@gmail.com", "phone": null, "title": "Fundraising Lead"},
+        {"first_name": "Brianna", "last_name": "Aguilar", "email": "communications@smcrome.org", "phone": null, "title": "Communications Director"},
+        {"first_name": "Carol", "last_name": "Black", "email": "cbchurch@smcrome.org", "phone": "+17062909000", "title": "Business Manager"},
+        {"first_name": "Father W. Paul", "last_name": "Porter", "email": "pporter@smcrome.org", "phone": "+17703651818", "title": "Pastor"}
+      ],
+      "complimentary_promo_code": "StMary-GA-GR-2426",
+      "parish_size": null,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/10/details/",
+      "community_id": "10"
+    },
+    {
+      "id": "20012051380",
+      "name": "St Ignatius Church (MD) - Parish Partnership '25-'27",
+      "pipeline": "109690430",
+      "dealstage": "196439457",
+      "amount": 16000,
+      "closedate": "2025-03-04",
+      "createdate": "2024-06-11",
+      "last_modified": "2026-03-31",
+      "pqr_score": "2 – Unstable",
+      "contacts": [
+        {"first_name": "Rosanne", "last_name": "Mooney", "email": "rosanne.mooney@stignatiushickory.org", "phone": null, "title": "Bulletin Editor"},
+        {"first_name": "Kelly", "last_name": "Gibbons", "email": "kgibbons@stignatiushickory.org", "phone": "+14108791926", "title": "Office Manager"},
+        {"first_name": "Fr. Andrew", "last_name": "DeFusco", "email": "andrew.defusco@archbalt.org", "phone": "+14108791926", "title": "Pastor"},
+        {"first_name": "Caleb", "last_name": "Olsen", "email": "caleb.olsen@archbalt.org", "phone": "+14108790959", "title": "Coordinator of Youth and Young Adult Ministry"}
+      ],
+      "complimentary_promo_code": "Ignatius-MD-EX-2527",
+      "parish_size": null,
+      "tool_community_hyperlink": "https://tool.hallow.com/support/communities/2687/details/",
+      "community_id": "2687"
+    },
+    {
+      "id": "20012173826",
+      "name": "St. Sebastian and Corpus Christi Church (NY) - Parish Partnership '26-'27",
+      "pipeline": "109690430",
+      "dealstage": "1048951726",
+      "amount": 20500,
+      "closedate": "2026-01-04",
+      "createdate": "2024-06-11",
+      "last_modified": "2026-03-31",
+      "pqr_score": "4 – Weak",
+      "contacts": [
+        {"first_name": "Father Patrick", "last_name": "West", "email": "frwest@saintsebastianwoodside.org", "phone": "(718) 429-4442", "title": "Pastor"},
+        {"first_name": "Marcela", "last_name": "Monney", "email": "mmonney@saintsebastianwoodside.org", "phone": null, "title": "Youth Minister"},
+        {"first_name": "Christina", "last_name": "Penaloza", "email": "cpenaloza@saintsebastianwoodside.org", "phone": "+17183963436", "title": "Director of Youth & Young Adult Ministry"},
+        {"first_name": "Patrick", "last_name": "Sweeney", "email": "patrick.sweeney@saintsebastianwoodside.org", "phone": null, "title": "volunteer"},
+        {"first_name": "Rebecca", "last_name": "Newman Mahoney", "email": "rebecca.newman-mahoney@saintsebastianwoodside.org", "phone": "+16467393340", "title": "Director of Religious Education"},
+        {"first_name": "Mina", "last_name": "Newman", "email": "mina.newman@saintsebastianwoodside.org", "phone": null, "title": null},
+        {"first_name": "Karin", "last_name": "Sweeney", "email": "karin.sweeney@saintsebastianwoodside.org", "phone": "+19293697537", "title": null}
+      ],
+      "complimentary_promo_code": "SSCCNYEP2627",
+      "parish_size": null,
+      "tool_community_hyperlink": null,
+      "community_id": "6202"
+    }
+  ]
+}
