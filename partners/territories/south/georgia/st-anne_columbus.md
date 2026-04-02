@@ -1,9 +1,9 @@
-# St. Anne Catholic Church — Augusta, GA
+# St. Anne Catholic Church — Columbus, GA
 
 ## Basic Info
 
 - **Parish Name:** St. Anne Catholic Church
-- **City / Area:** Augusta
+- **City / Area:** Columbus
 - **Territory:** South
 - **State:** Georgia
 - **Diocese:**
