@@ -21,6 +21,7 @@ At the end of each conversation, increment the relevant row(s) in [`context/requ
     2. Place it there and nowhere else
     3. Any other file that needs to reference it should link to the source file rather than repeat the content
 - 200 lines is the soft ceiling for any file. When a file approaches or exceeds this, split it into focused sections and group related files in a subdirectory.
+- Any files that you create should then be placed in the reports directory
 
 ## File Sharing
 When Bryce asks to share or send a file to a partner:
