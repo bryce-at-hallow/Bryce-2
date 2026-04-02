@@ -21,3 +21,9 @@ At the end of each conversation, increment the relevant row(s) in [`context/requ
     2. Place it there and nowhere else
     3. Any other file that needs to reference it should link to the source file rather than repeat the content
 - 200 lines is the soft ceiling for any file. When a file approaches or exceeds this, split it into focused sections and group related files in a subdirectory.
+
+## File Sharing
+When Bryce asks to share or send a file to a partner:
+1. Check [`context/drive-catalog.csv`](context/drive-catalog.csv) first — match by `File` name, return the `Link` directly
+2. If not in the catalog, fall back to `mcp__gdrive__search_files`
+3. Return the link only — no email draft unless explicitly asked

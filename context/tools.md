@@ -61,8 +61,4 @@ The tools Bryce and the Hallow team use day-to-day. When suggesting how to captu
 
 ## Google Drive — File Catalog
 
-> To be populated via `workflows/update-drive-catalog.md` once the Drive MCP catalog is fully built out.
-
-| File Name | Folder | Description | Relevant Scenarios |
-|-----------|--------|-------------|--------------------|
-| *(pending)* | | | |
+See [`context/drive-catalog.md`](drive-catalog.md) for the full indexed list of shareable partner files with links and usage guidance.

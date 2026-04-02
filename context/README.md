@@ -14,3 +14,4 @@ This folder contains background documents that define who Bryce is, what Hallow 
 - [`tools.md`](tools.md) — Tools the team uses (Notion, ClickUp, Google Suite, Drive MCP) and how Claude should apply them
 - [`pqr-scoring.md`](pqr-scoring.md) — The 1–10 Partner Quality Rating rubric and action thresholds
 - [`request-log.md`](request-log.md) — Running log of request types to identify skill/agent opportunities
+- [`drive-catalog.csv`](drive-catalog.csv) — Shareable Drive files index; lookup by file name to get direct link and send context
