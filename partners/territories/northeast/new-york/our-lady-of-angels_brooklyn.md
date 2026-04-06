@@ -1,4 +1,6 @@
-# Our Lady of Angels — Brooklyn, NY
+# Our Lady of Angels
+
+---
 
 ## Basic Info
 
@@ -11,34 +13,32 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Fr. Kevin Abels | Pastor | kabels@diobrook.org | (718) 680-1010 |
+| Name | Title | Email |
+|------|-------|-------|
+| Fr. Kevin Abels | Pastor | kabels@diobrook.org |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Rocco Gentile | Principal | gentile@fontbonne.org | (718) 745-3841 |
-| Dineen Riviezzo | Eucharist Minister and Lector | dingrajoh2@yahoo.com | +1 (917) 951-0222 |
-| Ann Smyth | Pastoral Associate | standrewreledu@gmail.com | +1 (718) 680-1010 |
+| Name | Title | Email |
+|------|-------|-------|
+| Rocco Gentile | Principal | gentile@fontbonne.org |
+| Dineen Riviezzo | Eucharist Minister and Lector | dingrajoh2@yahoo.com |
+| Ann Smyth | Pastoral Associate | standrewreledu@gmail.com |
 
 ## Partnership Details
 
 - **Partnership Tier:** Expansion
 - **Partnership Start Date:** 2025-05-20
 - **Renewal Date:**
-- **Staff Complimentary Code:** Angels-NY-EX-2527
-- **Parishioner Discount:**
-- **Quality Rating:** 7 – Engaged *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
-- **Community Dashboard:** https://tool.hallow.com/support/communities/53/details/
+- **Parish Premium Discount Code:** Angels-NY-EX-2527
+- **PQR Score:** 7 – Engaged *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:**
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -46,16 +46,28 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2025-05-20** —
 
-## Outstanding Action Items
+## Misc
 
-- [ ]
-
-## Interaction Log
-
-- MM/DD/YYYY —
+- **Community Dashboard:** https://tool.hallow.com/support/communities/53/details/
 
 <!-- HubSpot community ID: 53 -->

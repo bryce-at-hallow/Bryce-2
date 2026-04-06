@@ -1,4 +1,6 @@
-# St. Columba Parish — Fort Collins, CO
+# St. Columba Parish
+
+---
 
 ## Basic Info
 
@@ -11,31 +13,30 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Fr. John Jatau | Pastor | parishoffice@stcolumbacatholic.org | +1 (970) 247-0044 |
+| Name | Title | Email |
+|------|-------|-------|
+| Fr. John Jatau | Pastor | parishoffice@stcolumbacatholic.org |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Julie Romero | Parish Director | jromero@stcolumbacatholic.org | (337) 789-4068 |
+| Name | Title | Email |
+|------|-------|-------|
+| Julie Romero | Parish Director | jromero@stcolumbacatholic.org |
 
 ## Partnership Details
 
 - **Partnership Tier:** Growth
 - **Partnership Start Date:** 2025-09-29
 - **Renewal Date:**
-- **Staff Complimentary Code:** StColumbaCO2529GP
-- **Parishioner Discount:**
-- **Quality Rating:** 8 – Strong *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
+- **Parish Premium Discount Code:** StColumbaCO2529GP
+- **PQR Score:** 8 *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:** 8 – Strong
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -43,16 +44,26 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2025-09-29** — Partnership started.
 
-## Outstanding Action Items
-
-- [ ]
-
-## Interaction Log
-
-- 09/29/2025 — Partnership closed.
+## Misc
 
 <!-- HubSpot community ID: 1402 -->

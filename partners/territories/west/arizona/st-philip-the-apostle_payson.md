@@ -1,4 +1,6 @@
-# St. Philip the Apostle — Payson, AZ
+# St. Philip the Apostle
+
+---
 
 ## Basic Info
 
@@ -11,33 +13,31 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Fr. Thomas Quirk | Pastor | tquirk@diocesetucson.org | +1 (928) 474-2392 |
+| Name | Title | Email |
+|------|-------|-------|
+| Fr. Thomas Quirk | Pastor | tquirk@diocesetucson.org |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Sarah Doerneman | Director of Faith Formation | youthministrypayson@gmail.com | +1 (928) 474-1269 |
-| Tricia Hale | — | thale@diocesetucson.org | — |
+| Name | Title | Email |
+|------|-------|-------|
+| Sarah Doerneman | Director of Faith Formation | youthministrypayson@gmail.com |
+| Tricia Hale | — | thale@diocesetucson.org |
 
 ## Partnership Details
 
 - **Partnership Tier:** Growth
 - **Partnership Start Date:** 2025-03-26
 - **Renewal Date:**
-- **Staff Complimentary Code:** Philip-AZ-GR-2527
-- **Parishioner Discount:**
-- **Quality Rating:** 6 – Developing *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
-- **Community Dashboard:** https://tool.hallow.com/support/communities/11020/details/
+- **Parish Premium Discount Code:** Philip-AZ-GR-2527
+- **PQR Score:** 6 *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:** 6 – Developing
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -45,16 +45,27 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2025-03-26** — Partnership started.
 
-## Outstanding Action Items
-
-- [ ]
-
-## Interaction Log
-
-- 03/26/2025 — Partnership closed.
+## Misc
 
 <!-- HubSpot community ID: 11020 -->
+<!-- Community Dashboard: https://tool.hallow.com/support/communities/11020/details/ -->

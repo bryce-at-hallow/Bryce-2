@@ -1,5 +1,7 @@
 # Blessed Trinity Family of Parishes — Cincinnati, OH
 
+---
+
 ## Basic Info
 
 - **Parish Name:** Blessed Trinity Family of Parishes
@@ -11,30 +13,29 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Mike Burke | Director of Evangelization | mburke@theblessedtrinityfamily.org | (513) 385-8010 |
+| Name | Title | Email |
+|------|-------|-------|
+| Mike Burke | Director of Evangelization | mburke@theblessedtrinityfamily.org |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
+| Name | Title | Email |
+|------|-------|-------|
 
 ## Partnership Details
 
 - **Partnership Tier:** Growth
 - **Partnership Start Date:** 2025-11-25
 - **Renewal Date:**
-- **Staff Complimentary Code:** BlessedTrinityOHGP2627Free
-- **Parishioner Discount:**
-- **Quality Rating:** 6 – Developing *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
+- **Parish Premium Discount Code:** BlessedTrinityOHGP2627Free
+- **PQR Score:** 6 – Developing *(see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:**
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:** *(scheduled date or target)*
+- **Cadence Goal:** *(Monthly / Quarterly)*
 
 ## Parish Context
 
@@ -42,16 +43,26 @@
 - **Key Programs or Ministries:**
 - **Notable Context:** Family of parishes
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2025-11-25** — Partnership closed (Growth '26–'28)
 
-## Outstanding Action Items
-
-- [ ]
-
-## Interaction Log
-
-- 11/25/2025 — Partnership closed
+## Misc
 
 <!-- HubSpot community ID: 10962 -->

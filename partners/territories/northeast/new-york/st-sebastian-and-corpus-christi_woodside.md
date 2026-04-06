@@ -1,4 +1,6 @@
-# St. Sebastian and Corpus Christi Church — Woodside, NY
+# St. Sebastian and Corpus Christi Church
+
+---
 
 ## Basic Info
 
@@ -11,33 +13,32 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Father Patrick West | Pastor | frwest@saintsebastianwoodside.org | (718) 429-4442 |
+| Name | Title | Email |
+|------|-------|-------|
+| Father Patrick West | Pastor | frwest@saintsebastianwoodside.org |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Marcela Monney | Youth Minister | mmonney@saintsebastianwoodside.org | |
-| Christina Penaloza | Director of Youth & Young Adult Ministry | cpenaloza@saintsebastianwoodside.org | +1 (718) 396-3436 |
-| Rebecca Newman Mahoney | Director of Religious Education | rebecca.newman-mahoney@saintsebastianwoodside.org | +1 (646) 739-3340 |
+| Name | Title | Email |
+|------|-------|-------|
+| Marcela Monney | Youth Minister | mmonney@saintsebastianwoodside.org |
+| Christina Penaloza | Director of Youth & Young Adult Ministry | cpenaloza@saintsebastianwoodside.org |
+| Rebecca Newman Mahoney | Director of Religious Education | rebecca.newman-mahoney@saintsebastianwoodside.org |
 
 ## Partnership Details
 
 - **Partnership Tier:** Expansion
 - **Partnership Start Date:** 2026-01-04
 - **Renewal Date:**
-- **Staff Complimentary Code:** SSCCNYEP2627
-- **Parishioner Discount:**
-- **Quality Rating:** 4 – Weak *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
+- **Parish Premium Discount Code:** SSCCNYEP2627
+- **PQR Score:** 4 – Weak *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:**
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -45,16 +46,26 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2026-01-04** —
 
-## Outstanding Action Items
-
-- [ ]
-
-## Interaction Log
-
-- MM/DD/YYYY —
+## Misc
 
 <!-- HubSpot community ID: 6202 -->

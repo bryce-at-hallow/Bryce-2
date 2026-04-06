@@ -1,4 +1,6 @@
-# St. James Catholic Church — Seguin, TX
+# St. James Catholic Church
+
+---
 
 ## Basic Info
 
@@ -11,31 +13,30 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| John Kiser | Head of the Parish Council | jkiser@saintjamescc.org | (501) 658-7031 |
+| Name | Title | Email |
+|------|-------|-------|
+| John Kiser | Head of the Parish Council | jkiser@saintjamescc.org |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Kelly Roybal | | info@saintjamescc.org | |
+| Name | Title | Email |
+|------|-------|-------|
+| Kelly Roybal | | info@saintjamescc.org |
 
 ## Partnership Details
 
 - **Partnership Tier:** Growth
 - **Partnership Start Date:** 2026-01-08
 - **Renewal Date:**
-- **Staff Complimentary Code:** StJamesTXGP2627Free
-- **Parishioner Discount:**
-- **Quality Rating:** 6 – Developing *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
+- **Parish Premium Discount Code:** StJamesTXGP2627Free
+- **PQR Score:** 6 *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:** Developing
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -43,16 +44,26 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2026-01-08** —
 
-## Outstanding Action Items
-
-- [ ]
-
-## Interaction Log
-
-- MM/DD/YYYY —
+## Misc
 
 <!-- HubSpot community ID: 9829 -->

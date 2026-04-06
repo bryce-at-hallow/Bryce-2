@@ -1,4 +1,6 @@
-# Holy Name — Sheridan, WY
+# Holy Name
+
+---
 
 ## Basic Info
 
@@ -11,31 +13,30 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Fr. Glenn Whewell | Pastor | gwhewell@dcwy.org | (307) 674-4641 |
+| Name | Title | Email |
+|------|-------|-------|
+| Fr. Glenn Whewell | Pastor | gwhewell@dcwy.org |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Monique Barron | Director of Faith Formation | mbarron@dcwy.org | (307) 672-2848 |
+| Name | Title | Email |
+|------|-------|-------|
+| Monique Barron | Director of Faith Formation | mbarron@dcwy.org |
 
 ## Partnership Details
 
 - **Partnership Tier:** Growth
 - **Partnership Start Date:** 2025-10-20
 - **Renewal Date:**
-- **Staff Complimentary Code:** HolyNameSheridanWYGR2526
-- **Parishioner Discount:**
-- **Quality Rating:** 7 – Engaged *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
+- **Parish Premium Discount Code:** HolyNameSheridanWYGR2526
+- **PQR Score:** 7 *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:** 7 – Engaged
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:** 2026-03-31
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -43,25 +44,27 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
 
+<!-- Add dated notes after calls, emails, or significant updates -->
+
 - **2025-10-20** — Partnership started.
+- **2026-03-31** — Roadmap call. Discussed Ignatian spirituality parish event for June 20/21 and 28-day prayer challenge; aligned on next steps around date confirmation and content selection.
 
-## Outstanding Action Items
-
-**Monique / Holy Name:**
-- [ ] Check with Father Glenn on June 20th or 21st for parish event and confirm with Bryce ASAP
-- [ ] Review visual rosary content and share feedback
-- [ ] Decide on May prayer challenge and send selection to Bryce
-
-**Bryce:**
-- [ ] Confirm availability for June 20th or 21st within two weeks
-- [ ] Check with Hallow content team on USCCB-related Sacred Heart Novena initiatives
-- [ ] Verify whether Father Timothy Gallagher's Daily Contemplation is free or premium tier and clarify for parish
-
-## Interaction Log
-
-- 10/20/2025 — Partnership closed.
-- 03/31/2026 — Roadmap call. Discussed Ignatian spirituality parish event for June 20/21 and 28-day prayer challenge; aligned on next steps around date confirmation and content selection.
+## Misc
 
 <!-- HubSpot community ID: 3053 -->

@@ -1,4 +1,6 @@
-# St. Rose of Lima — Simi Valley, CA
+# St. Rose of Lima
+
+---
 
 ## Basic Info
 
@@ -11,31 +13,30 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Tami Whalen | Director of Religious Education | tami_re@strosesv.com | +1 (818) 568-6296 |
+| Name | Title | Email |
+|------|-------|-------|
+| Tami Whalen | Director of Religious Education | tami_re@strosesv.com |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Josephine Tarampi | Office Manager | jo@strosesv.com | — |
+| Name | Title | Email |
+|------|-------|-------|
+| Josephine Tarampi | Office Manager | jo@strosesv.com |
 
 ## Partnership Details
 
 - **Partnership Tier:** Growth
 - **Partnership Start Date:** 2025-12-09
 - **Renewal Date:**
-- **Staff Complimentary Code:** StRoseofLimaCAGP2628
-- **Parishioner Discount:**
-- **Quality Rating:** 6 – Developing *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
+- **Parish Premium Discount Code:** StRoseofLimaCAGP2628
+- **PQR Score:** 6 *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:** 6 – Developing
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -43,16 +44,26 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2025-12-09** — Partnership started.
 
-## Outstanding Action Items
-
-- [ ]
-
-## Interaction Log
-
-- 12/09/2025 — Partnership closed.
+## Misc
 
 <!-- HubSpot community ID: 3227 -->

@@ -1,5 +1,7 @@
 # Our Lady of Victory — Sioux Falls, SD
 
+---
+
 ## Basic Info
 
 - **Parish Name:** Our Lady of Victory
@@ -11,31 +13,30 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Rechelle Dissing | Business Manager | rechelle@olvictorysd.org | |
+| Name | Title | Email |
+|------|-------|-------|
+| Rechelle Dissing | Business Manager | rechelle@olvictorysd.org |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Dana Webskowski | | dana@olvictorysd.org | 605-361-1600 ext. 2268 |
+| Name | Title | Email |
+|------|-------|-------|
+| Dana Webskowski | | dana@olvictorysd.org |
 
 ## Partnership Details
 
 - **Partnership Tier:** Expansion
 - **Partnership Start Date:** 2026-02-25
 - **Renewal Date:**
-- **Staff Complimentary Code:** OLVictorySDEP2627free
-- **Parishioner Discount:**
-- **Quality Rating:** *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
+- **Parish Premium Discount Code:** OLVictorySDEP2627free
+- **PQR Score:** *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:**
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:** *(scheduled date or target)*
+- **Cadence Goal:** *(Monthly / Quarterly)*
 
 ## Parish Context
 
@@ -43,16 +44,26 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2026-02-25** — Partnership closed (Expansion '26–'30)
 
-## Outstanding Action Items
-
-- [ ]
-
-## Interaction Log
-
-- 02/25/2026 — Partnership closed
+## Misc
 
 <!-- HubSpot community ID: 8097 -->

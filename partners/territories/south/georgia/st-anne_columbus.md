@@ -1,4 +1,6 @@
-# St. Anne Catholic Church — Columbus, GA
+# St. Anne Catholic Church
+
+---
 
 ## Basic Info
 
@@ -11,32 +13,30 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Fr. Scott Winchel | Pastor | frwinchel@stanneweb.com | |
+| Name | Title | Email |
+|------|-------|-------|
+| Fr. Scott Winchel | Pastor | frwinchel@stanneweb.com |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Kimberly Kaup | Director of Stewardship | kkaup@stanneweb.com | +1 (706) 561-8678 |
+| Name | Title | Email |
+|------|-------|-------|
+| Kimberly Kaup | Director of Stewardship | kkaup@stanneweb.com |
 
 ## Partnership Details
 
 - **Partnership Tier:** Growth
 - **Partnership Start Date:** 2025-06-18
 - **Renewal Date:**
-- **Staff Complimentary Code:** Anne-GA-GR-2526
-- **Parishioner Discount:**
-- **Quality Rating:** 8 – Strong *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
-- **Community Dashboard:** https://tool.hallow.com/support/communities/2630/details/
+- **Parish Premium Discount Code:** Anne-GA-GR-2526
+- **PQR Score:** 8 *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:** Strong
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -44,16 +44,28 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2025-06-18** —
 
-## Outstanding Action Items
+## Misc
 
-- [ ]
-
-## Interaction Log
-
-- MM/DD/YYYY —
+- **Community Dashboard:** https://tool.hallow.com/support/communities/2630/details/
 
 <!-- HubSpot community ID: 2630 -->

@@ -1,4 +1,6 @@
-# St. Mary of the Assumption Parish — Hockessin, DE
+# St. Mary of the Assumption Parish
+
+---
 
 ## Basic Info
 
@@ -11,32 +13,31 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Daniel Digiacobbe | Business Manager | manager@smachurch.com | +1 (302) 239-7100 ext. 11 |
+| Name | Title | Email |
+|------|-------|-------|
+| Daniel Digiacobbe | Business Manager | manager@smachurch.com |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Jennifer LaFrankie | | jenlafrankie@yahoo.com | |
-| Denise Troise | | finance@smachurch.com | |
+| Name | Title | Email |
+|------|-------|-------|
+| Jennifer LaFrankie | | jenlafrankie@yahoo.com |
+| Denise Troise | | finance@smachurch.com |
 
 ## Partnership Details
 
 - **Partnership Tier:** Growth
 - **Partnership Start Date:** 2025-10-17
 - **Renewal Date:**
-- **Staff Complimentary Code:** StMaryAssumptionDEGP2527free
-- **Parishioner Discount:**
-- **Quality Rating:** 6 – Developing *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
+- **Parish Premium Discount Code:** StMaryAssumptionDEGP2527free
+- **PQR Score:** 6 – Developing *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:**
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -44,16 +45,26 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2025-10-17** —
 
-## Outstanding Action Items
-
-- [ ]
-
-## Interaction Log
-
-- MM/DD/YYYY —
+## Misc
 
 <!-- HubSpot community ID: 3712 -->

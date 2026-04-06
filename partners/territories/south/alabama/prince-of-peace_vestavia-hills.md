@@ -1,4 +1,6 @@
-# Prince of Peace Catholic Church — Vestavia Hills, AL
+# Prince of Peace Catholic Church
+
+---
 
 ## Basic Info
 
@@ -11,30 +13,29 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Alex Kubik | Director of Parish Life | alex.kubik@popcatholic.org | +1 (205) 822-9125 |
+| Name | Title | Email |
+|------|-------|-------|
+| Alex Kubik | Director of Parish Life | alex.kubik@popcatholic.org |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
+| Name | Title | Email |
+|------|-------|-------|
 
 ## Partnership Details
 
 - **Partnership Tier:** Expansion
 - **Partnership Start Date:** 2025-12-19
 - **Renewal Date:**
-- **Staff Complimentary Code:** PrinceofPeaceALEP2629free
-- **Parishioner Discount:**
-- **Quality Rating:** 7 – Engaged *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
+- **Parish Premium Discount Code:** PrinceofPeaceALEP2629free
+- **PQR Score:** 7 *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:** Engaged
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -42,16 +43,26 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2025-12-19** —
 
-## Outstanding Action Items
-
-- [ ]
-
-## Interaction Log
-
-- MM/DD/YYYY —
+## Misc
 
 <!-- HubSpot community ID: 869 -->

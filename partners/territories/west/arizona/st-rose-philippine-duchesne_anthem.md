@@ -1,4 +1,6 @@
-# St. Rose Philippine Duchesne — Anthem, AZ
+# St. Rose Philippine Duchesne
+
+---
 
 ## Basic Info
 
@@ -11,32 +13,31 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Renee Hunsaker | Director of Religious Education | rhunsaker@stroseanthem.com | (623) 465-9740 |
+| Name | Title | Email |
+|------|-------|-------|
+| Renee Hunsaker | Director of Religious Education | rhunsaker@stroseanthem.com |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Matthew Ficarra | Director of Music & Media | mficarra@stroseanthem.com | (623) 307-8266 |
-| Tom Henrich | Office Manager | thenrich@stroseanthem.com | — |
+| Name | Title | Email |
+|------|-------|-------|
+| Matthew Ficarra | Director of Music & Media | mficarra@stroseanthem.com |
+| Tom Henrich | Office Manager | thenrich@stroseanthem.com |
 
 ## Partnership Details
 
 - **Partnership Tier:** Growth
 - **Partnership Start Date:** 2025-08-29
 - **Renewal Date:**
-- **Staff Complimentary Code:** StRose-AZ-GP-2526-Free
-- **Parishioner Discount:**
-- **Quality Rating:** 6 – Developing *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
+- **Parish Premium Discount Code:** StRose-AZ-GP-2526-Free
+- **PQR Score:** 6 *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:** 6 – Developing
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -44,16 +45,26 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2025-08-29** — Partnership started.
 
-## Outstanding Action Items
-
-- [ ]
-
-## Interaction Log
-
-- 08/29/2025 — Partnership closed.
+## Misc
 
 <!-- HubSpot community ID: 2426 -->

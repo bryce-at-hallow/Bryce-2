@@ -1,4 +1,6 @@
-# Holy Family — Kirkland, WA
+# Holy Family
+
+---
 
 ## Basic Info
 
@@ -11,31 +13,30 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Dave Laidler | Pastoral Associate | dave@hfkparish.org | (425) 822-0295 |
+| Name | Title | Email |
+|------|-------|-------|
+| Dave Laidler | Pastoral Associate | dave@hfkparish.org |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Francois Burianek | — | swa68@hotmail.com | — |
+| Name | Title | Email |
+|------|-------|-------|
+| Francois Burianek | — | swa68@hotmail.com |
 
 ## Partnership Details
 
 - **Partnership Tier:** Growth
 - **Partnership Start Date:** 2025-10-22
 - **Renewal Date:**
-- **Staff Complimentary Code:** HolyFamilyWAGP2526free
-- **Parishioner Discount:**
-- **Quality Rating:** 7 – Engaged *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
+- **Parish Premium Discount Code:** HolyFamilyWAGP2526free
+- **PQR Score:** 7 *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:** 7 – Engaged
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -43,16 +44,26 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2025-10-22** — Partnership started.
 
-## Outstanding Action Items
-
-- [ ]
-
-## Interaction Log
-
-- 10/22/2025 — Partnership closed.
+## Misc
 
 <!-- HubSpot community ID: 1642 -->

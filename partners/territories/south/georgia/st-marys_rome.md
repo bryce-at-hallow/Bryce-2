@@ -1,4 +1,6 @@
-# St. Mary's Church — Rome, GA
+# St. Mary's Church
+
+---
 
 ## Basic Info
 
@@ -11,33 +13,31 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Father W. Paul Porter | Pastor | pporter@smcrome.org | +1 (770) 365-1818 |
+| Name | Title | Email |
+|------|-------|-------|
+| Father W. Paul Porter | Pastor | pporter@smcrome.org |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Brianna Aguilar | Communications Director | communications@smcrome.org | |
-| Carol Black | Business Manager | cbchurch@smcrome.org | +1 (706) 290-9000 |
+| Name | Title | Email |
+|------|-------|-------|
+| Brianna Aguilar | Communications Director | communications@smcrome.org |
+| Carol Black | Business Manager | cbchurch@smcrome.org |
 
 ## Partnership Details
 
 - **Partnership Tier:** Growth
 - **Partnership Start Date:** 2024-11-20
 - **Renewal Date:**
-- **Staff Complimentary Code:** StMary-GA-GR-2426
-- **Parishioner Discount:**
-- **Quality Rating:** 6 – Developing *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
-- **Community Dashboard:** https://tool.hallow.com/support/communities/10/details/
+- **Parish Premium Discount Code:** StMary-GA-GR-2426
+- **PQR Score:** 6 *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:** Developing
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -45,16 +45,28 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2024-11-20** —
 
-## Outstanding Action Items
+## Misc
 
-- [ ]
-
-## Interaction Log
-
-- MM/DD/YYYY —
+- **Community Dashboard:** https://tool.hallow.com/support/communities/10/details/
 
 <!-- HubSpot community ID: 10 -->

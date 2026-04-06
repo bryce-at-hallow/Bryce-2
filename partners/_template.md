@@ -1,7 +1,7 @@
 # [Parish Name]
 
-**File naming convention:** `[state]_[city-or-area]_[parish-name].md`
-**Example:** `il_springfield_st-francis.md`
+**File naming convention:** `territories/[territory]/[state]_[city-or-area]_[parish-name].md`
+**Example:** `territories/midwest/il_springfield_st-francis.md`
 
 ---
 
@@ -9,23 +9,20 @@
 
 - **Parish Name:**
 - **City / Area:**
-- **Territory**
+- **Territory:**
 - **State:**
 - **Diocese:**
 - **Website:**
 
 ## Primary Contact
 
-| Name | Title |Email| Phone|
-|------|-------|-------|-----|
-
-**Note**: *Title can be Pastor, Parish Administrator, Business Manager, etc.*
+| Name | Title | Email |
+|------|-------|-------|
 
 ## Secondary Contact *(if applicable)*
 
-| Name | Title |Email| Phone|
-|------|-------|-------|-----|
-
+| Name | Title | Email |
+|------|-------|-------|
 
 ## Partnership Details
 
@@ -33,33 +30,39 @@
 - **Partnership Start Date:**
 - **Renewal Date:**
 - **Parish Premium Discount Code:**
-- **Quality Rating:** *(1–10 — see [context/pqr-scoring.md](../context/pqr-scoring.md))*
-- **Rating Notes:** *(What's driving that score?)*
+- **PQR Score:** *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:** *(What's driving that score?)*
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Primary day-to-day contact:**
-- **Preferred contact method:** *(email / phone / text)*
-- **Style notes:** *(e.g., prefers brief emails, responds faster in the afternoon, CC the pastor on major updates)*
+- **Last Meeting:**
+- **Next Meeting:** *(scheduled date or target)*
+- **Cadence Goal:** *(Monthly / Quarterly)*
 
 ## Parish Context
 
 - **Parish Size:** *(approximate registered households or weekly attendance)*
 - **Key Programs or Ministries:**
-- **Notable Context:** *(e.g., bilingual parish, school attached, recently joined, in a rural area)*
+- **Notable Context:** *(e.g., bilingual parish, school attached, rural area)*
+
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
 
 ## Relationship History
 
-<!-- Add dated notes over time -->
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **[Date]** —
 
-## Outstanding Action Items
-
-- [ ]
-
-## Interaction Log
-
-<!-- Auto-populated by workflows. Format: MM/DD/YYYY — Brief sentence. -->
-
-- MM/DD/YYYY —
+## Misc

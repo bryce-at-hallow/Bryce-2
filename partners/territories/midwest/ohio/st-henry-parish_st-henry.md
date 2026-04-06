@@ -1,5 +1,7 @@
 # St. Henry Parish — St. Henry, OH
 
+---
+
 ## Basic Info
 
 - **Parish Name:** St. Henry Parish
@@ -11,32 +13,31 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Father Andrew Hess | Pastor | pastor@sthenrycluster.com | 740-896-2207 |
+| Name | Title | Email |
+|------|-------|-------|
+| Father Andrew Hess | Pastor | pastor@sthenrycluster.com |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Erik Bonilla | Director of Evangelization & Communications | erik@sthenrycluster.com | 419-763-5231 |
-| Josh Wendel | Director of Administration | business@sthenrycluster.com | |
+| Name | Title | Email |
+|------|-------|-------|
+| Erik Bonilla | Director of Evangelization & Communications | erik@sthenrycluster.com |
+| Josh Wendel | Director of Administration | business@sthenrycluster.com |
 
 ## Partnership Details
 
 - **Partnership Tier:** Growth
 - **Partnership Start Date:** 2025-10-31
 - **Renewal Date:**
-- **Staff Complimentary Code:** StHenryOHGP2628free
-- **Parishioner Discount:**
-- **Quality Rating:** 9 – Thriving *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
+- **Parish Premium Discount Code:** StHenryOHGP2628free
+- **PQR Score:** 9 – Thriving *(see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:**
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:** 2026-03-31
+- **Next Meeting:** *(scheduled date or target)*
+- **Cadence Goal:** *(Monthly / Quarterly)*
 
 ## Parish Context
 
@@ -44,25 +45,27 @@
 - **Key Programs or Ministries:**
 - **Notable Context:** Includes RE Program
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
 
+<!-- Add dated notes after calls, emails, or significant updates -->
+
 - **2025-10-31** — Partnership closed (Growth '26–'28 + RE Program)
+- **2026-03-31** — Roadmap call. Discussed Sacred Heart Retreat challenge (May 23rd launch), promotion timeline, giving campaign option, and fall prayer challenge planning.
 
-## Outstanding Action Items
-
-**Bryce**
-- [ ] Send visuals, bulletin/pulpit announcement copy, and promotional materials for the Sacred Heart Retreat
-- [ ] Schedule Sacred Heart Retreat challenge (promotion starts April 26th, challenge starts May 23rd)
-- [ ] Connect Erik with Chauncey (giving campaign expert) if they want more info
-
-**Erik & Josh**
-- [ ] Begin promoting Sacred Heart Retreat to parishioners starting April 26th
-- [ ] Review giving campaign option with Josh and Father — decide whether to use it or use an additional prayer challenge credit
-- [ ] Consider fall prayer challenge options (e.g., "How to Pray") and circle back with decision
-
-## Interaction Log
-
-- 10/31/2025 — Partnership closed
-- 03/31/2026 — Roadmap call. Discussed Sacred Heart Retreat challenge (May 23rd launch), promotion timeline, giving campaign option, and fall prayer challenge planning.
+## Misc
 
 <!-- HubSpot community ID: 12000 -->

@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "709dab1a92ccb983",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f916a2f5a215aae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13d438744dba20bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          },
+          {
+            "id": "bdf42e6f91c3ddee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BUILD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BUILD"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2895993b9d4b2120",
+    "type": "split",
+    "children": [
+      {
+        "id": "51b1dd5389e03a2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa623db3f6674e60",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "622c3611c79a1782",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a72794a62794a462",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "99f69e96a9248808",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e487ac105684b38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "028fd1b2c90462a7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "BUILD.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for BUILD"
+            }
+          },
+          {
+            "id": "2da5ff473ca593a4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "BUILD.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from BUILD"
+            }
+          },
+          {
+            "id": "1edfb5b4d9dd1b54",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "16493542dde707a8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "780c9d1b86484914",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "BUILD.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of BUILD"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "bdf42e6f91c3ddee",
+  "lastOpenFiles": [
+    "CLAUDE.md",
+    "partners/territories/midwest/kansas/st-michaels_mulvane.md",
+    "partners/territories/northeast/delaware/st-mary-of-the-assumption_hockessin.md",
+    "partners/_template.md",
+    "partners/territories/midwest/indiana/st-paul_valparaiso.md",
+    "BUILD.md",
+    "context/Q2_2026",
+    "context/about/me.md",
+    "context/ops/tools.md",
+    "context/logs/request-log.md",
+    "TASKS.md",
+    "context/about/team.md",
+    "context/about/hallow.md",
+    "context/program/partner-health.md",
+    "context/logs",
+    "context/ops/drive-catalog.csv",
+    "context/ops",
+    "context/program/pqr-scoring.md",
+    "context/program/partnership-features.md",
+    "context/program",
+    "context/about",
+    "archives/2026",
+    "Q2_2026",
+    "quarters/Q3_2026",
+    "quarters/Q2_2026",
+    "quarters/Q2_2026/Quarter 2 Goals 2026.md",
+    "context/me.md",
+    "context/hallow.md"
+  ]
+}

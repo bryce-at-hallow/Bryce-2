@@ -1,4 +1,6 @@
-# Historic Albany Parish Network — Albany, NY
+# Historic Albany Parish Network
+
+---
 
 ## Basic Info
 
@@ -11,32 +13,30 @@
 
 ## Primary Contact
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Fr. Rendell Torres | Rector | rendell.torres@rcda.org | |
+| Name | Title | Email |
+|------|-------|-------|
+| Fr. Rendell Torres | Rector | rendell.torres@rcda.org |
 
-## Secondary Contacts
+## Secondary Contact *(if applicable)*
 
-| Name | Title | Email | Phone |
-|------|-------|-------|-------|
-| Barbara Koerner-Fox | Operations Manager | barbara.koernerfox@rcda.org | +1 (518) 965-4474 |
+| Name | Title | Email |
+|------|-------|-------|
+| Barbara Koerner-Fox | Operations Manager | barbara.koernerfox@rcda.org |
 
 ## Partnership Details
 
 - **Partnership Tier:** Growth
 - **Partnership Start Date:** 2025-04-16
 - **Renewal Date:**
-- **Staff Complimentary Code:** Immaculate-NY-GR-2527, Immaculate-NY-GR-2627
-- **Parishioner Discount:**
-- **Quality Rating:** 5 – Neutral *(see [context/pqr-scoring.md](../../context/pqr-scoring.md) for rubric)*
-- **Rating Notes:**
-- **Community Dashboard:** https://tool.hallow.com/support/communities/1036/details/
+- **Parish Premium Discount Code:** Immaculate-NY-GR-2527, Immaculate-NY-GR-2627
+- **PQR Score:** 5 – Neutral *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:**
 
-## Communication Preferences
+## Meeting Cadence
 
-- **Preferred Contact Method:**
-- **Best Time to Reach:**
-- **Notes:**
+- **Last Meeting:**
+- **Next Meeting:**
+- **Cadence Goal:**
 
 ## Parish Context
 
@@ -44,16 +44,28 @@
 - **Key Programs or Ministries:**
 - **Notable Context:**
 
+## Omni Metrics
+
+<!-- Pull from Omni when generating partner reports. Update date each time. -->
+
+- **Community Members:**
+- **Active Users (Last 30 Days):**
+- **Top Content:**
+- **Last Updated:**
+
+## Action Items
+
+> Action items are created and tracked in HubSpot under this partner's deal record.
+> Use the post-roadmap skill to generate and sync items after each roadmap call.
+
 ## Relationship History
+
+<!-- Add dated notes after calls, emails, or significant updates -->
 
 - **2025-04-16** —
 
-## Outstanding Action Items
+## Misc
 
-- [ ]
-
-## Interaction Log
-
-- MM/DD/YYYY —
+- **Community Dashboard:** https://tool.hallow.com/support/communities/1036/details/
 
 <!-- HubSpot community ID: 1036 -->
