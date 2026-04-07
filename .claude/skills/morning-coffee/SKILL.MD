@@ -13,13 +13,13 @@ Your Goal is to produce a morning report providing an overview of my day as well
   - Highlight on any tasks that are outstanding 
 3. A summary of today's meetings 
 4. Any new messages from my partners in my inbox. Prioritize partners with low PQR scores
-5. Any new transacations from Ramp that need to be recorded. 
-6. Tool Updates. A Summary of Messages from these distinctive labels. 
+6. Tool Updates. A Summary of Messages from these distinctive labels. Make all of the tool titles h2s
   - ClickUp
   - Hubspot
   - Ramp
   - Rippling
-7. A Daily Agenda for Today
+7. A Summary of recent messages with the label label:2.-areas-newsletters
+8. A Daily Agenda for Today
 
 ## Daily Agenda for Today 
 - Pull all the tasks that I have scheduled for today or are due today or in the past

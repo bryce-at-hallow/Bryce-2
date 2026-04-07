@@ -16,12 +16,12 @@
 | Name | Title | Email |
 |------|-------|-------|
 | Vanessa Madera | RE Director and Family Life | familylife@smdlp.org |
+| Maria Levine | Ministry | mlevine@smdlp.org |
 
 ## Secondary Contact *(if applicable)*
 
 | Name | Title | Email |
 |------|-------|-------|
-| Maria Levine | Ministry | mlevine@smdlp.org |
 | Tommy Martinez | — | finance@smdlp.org |
 
 ## Partnership Details

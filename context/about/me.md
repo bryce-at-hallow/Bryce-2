@@ -52,6 +52,9 @@ Bryce is deeply mission-aligned and genuinely cares about the parishes he serves
 - Enneagram: 7w6 — enthusiastic, future-oriented, seeks possibility; grounded by loyalty and care for others
 - Myers-Briggs: ESFP — warm, spontaneous, present-focused, people-first
 - DOPE: Peacock-Dove — expressive and relational; values connection and recognition
+- Working Genius: **Invention + Galvanizing** (IG — "The Evangelizing Innovator") — generates novel ideas and rallies others around them; craves freedom and reaction, crushed by constraint and apathy
+- Working Competency: Enablement + Wonder
+- Working Frustration: Discernment + Tenacity — evaluating ideas intuitively and pushing projects through to completion drain energy
 
 **Workplace profile** (Criteria Corp, Apr 2025):
 - Cooperative — seeks common ground, preserves harmony; well-suited to service roles

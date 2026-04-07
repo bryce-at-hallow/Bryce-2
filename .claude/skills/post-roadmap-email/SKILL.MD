@@ -71,10 +71,14 @@ bryce@hallow.app
 
 ### 5. After Drafting
 Ask Bryce:
-> "Want me to update [Parish Name]'s partner profile with these action items, log today's roadmap call in the interaction log, and create a gmail draft?"
+> "Want me to update [Parish Name]'s partner profile with these action items and log today's roadmap call?"
 
 If yes, update the partner profile in `partners/` by:
 - Adding the call to the **Interaction Log** (format: `MM/DD/YYYY — Roadmap call. [One-sentence summary.]`)
 - Replacing or adding action items under **Outstanding Action Items**
-- Create a gmail draft with the email you just created
+
+Then hand off to the **`draft-email` skill** to handle the present → approve → Gmail loop. Pass in:
+- **To:** primary contact name + email
+- **CC:** any secondary contacts
+- **Purpose + email body:** the draft you just wrote above
 

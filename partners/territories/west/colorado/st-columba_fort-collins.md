@@ -15,13 +15,13 @@
 
 | Name | Title | Email |
 |------|-------|-------|
-| Fr. John Jatau | Pastor | parishoffice@stcolumbacatholic.org |
+| Julie Romero | Parish Director | jromero@stcolumbacatholic.org |
 
 ## Secondary Contact *(if applicable)*
 
 | Name | Title | Email |
 |------|-------|-------|
-| Julie Romero | Parish Director | jromero@stcolumbacatholic.org |
+| Fr. John Jatau | Pastor | parishoffice@stcolumbacatholic.org |
 
 ## Partnership Details
 

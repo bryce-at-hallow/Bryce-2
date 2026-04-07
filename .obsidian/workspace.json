@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2f916a2f5a215aae",
+        "id": "0f118fb4565804a9",
         "type": "tabs",
         "children": [
           {
-            "id": "13d438744dba20bb",
+            "id": "9ed75604931dae5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "partners/territories/northeast/new-york/st-sebastian-and-corpus-christi_woodside.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
-            }
-          },
-          {
-            "id": "bdf42e6f91c3ddee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BUILD.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BUILD"
+              "title": "st-sebastian-and-corpus-christi_woodside"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BUILD.md",
+                "file": "context/Q2_2026/Easter 2026.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for BUILD"
+              "title": "Backlinks for Easter 2026"
             }
           },
           {
@@ -128,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BUILD.md",
+                "file": "context/Q2_2026/Easter 2026.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from BUILD"
+              "title": "Outgoing links from Easter 2026"
             }
           },
           {
@@ -171,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BUILD.md",
+                "file": "context/Q2_2026/Easter 2026.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BUILD"
+              "title": "Outline of Easter 2026"
             }
           }
         ],
@@ -199,33 +184,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "bdf42e6f91c3ddee",
+  "active": "fa623db3f6674e60",
   "lastOpenFiles": [
+    "context/program/pqr-scoring.md",
+    "context/program/partnership-features.md",
+    "context/program/partner-health.md",
+    "context/about/team.md",
+    "context/about/me.md",
+    "context/about/hallow.md",
     "CLAUDE.md",
+    "BUILD.md",
+    "context/Q2_2026/OCIA Promo.md",
+    "context/Q2_2026/Easter 2026.md",
+    "partners/partner-domains.csv",
+    "partners/territories/northeast/new-york/st-sebastian-and-corpus-christi_woodside.md",
     "partners/territories/midwest/kansas/st-michaels_mulvane.md",
     "partners/territories/northeast/delaware/st-mary-of-the-assumption_hockessin.md",
     "partners/_template.md",
     "partners/territories/midwest/indiana/st-paul_valparaiso.md",
-    "BUILD.md",
     "context/Q2_2026",
-    "context/about/me.md",
     "context/ops/tools.md",
     "context/logs/request-log.md",
     "TASKS.md",
-    "context/about/team.md",
-    "context/about/hallow.md",
-    "context/program/partner-health.md",
     "context/logs",
     "context/ops/drive-catalog.csv",
     "context/ops",
-    "context/program/pqr-scoring.md",
-    "context/program/partnership-features.md",
     "context/program",
     "context/about",
     "archives/2026",
     "Q2_2026",
     "quarters/Q3_2026",
-    "quarters/Q2_2026",
     "quarters/Q2_2026/Quarter 2 Goals 2026.md",
     "context/me.md",
     "context/hallow.md"

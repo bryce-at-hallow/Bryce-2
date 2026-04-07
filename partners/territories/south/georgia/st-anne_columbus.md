@@ -15,13 +15,13 @@
 
 | Name | Title | Email |
 |------|-------|-------|
-| Fr. Scott Winchel | Pastor | frwinchel@stanneweb.com |
+| Kimberly Kaup | Director of Stewardship | kkaup@stanneweb.com |
 
 ## Secondary Contact *(if applicable)*
 
 | Name | Title | Email |
 |------|-------|-------|
-| Kimberly Kaup | Director of Stewardship | kkaup@stanneweb.com |
+| Fr. Scott Winchel | Pastor | frwinchel@stanneweb.com |
 
 ## Partnership Details
 

@@ -5,7 +5,7 @@
 ## Basic Info
 
 - **Parish Name:** Our Lady of Consolation Parish
-- **City / Area:**
+- **City / Area:** Rockford
 - **Territory:** Midwest
 - **State:** Michigan
 - **Diocese:**

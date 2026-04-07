@@ -15,15 +15,15 @@
 
 | Name | Title | Email |
 |------|-------|-------|
-| Fr. Brian McHugh | Pastor | frbrian@stagathaparish.org |
+| Matt Chick | Faith Formation | mchick@stagathaparish.org |
+| Colleen Chave | Parish Pastoral Council Member | chave.family@verizon.net |
 
 ## Secondary Contact *(if applicable)*
 
 | Name | Title | Email |
 |------|-------|-------|
-| Matt Chick | Faith Formation | mchick@stagathaparish.org |
+| Fr. Brian McHugh | Pastor | frbrian@stagathaparish.org |
 | Bob Ringuette | Director of Finance and Operations | operations@stagathaparish.org |
-| Colleen Chave | Parish Pastoral Council Member | chave.family@verizon.net |
 
 ## Partnership Details
 

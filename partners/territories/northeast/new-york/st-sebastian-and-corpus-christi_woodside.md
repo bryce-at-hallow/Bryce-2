@@ -31,14 +31,14 @@
 - **Partnership Start Date:** 2026-01-04
 - **Renewal Date:**
 - **Parish Premium Discount Code:** SSCCNYEP2627
-- **PQR Score:** 4 – Weak *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
-- **PQR Notes:**
+- **PQR Score:** 5 – Developing *(1–10 — see [context/program/pqr-scoring.md](../../context/program/pqr-scoring.md))*
+- **PQR Notes:** Rebecca and Patrick are actively engaged — April check-in covered analytics, Faith Formation Dashboard gaps, and fall prayer challenge planning. Fr. West remains skeptical and cost-sensitive, and bilingual/admin needs are unresolved, and forward momentum is building toward a fall launch.
 
 ## Meeting Cadence
 
-- **Last Meeting:**
-- **Next Meeting:**
-- **Cadence Goal:**
+- **Last Meeting:** 04/02/2026
+- **Next Meeting:** 05/07/2026
+- **Cadence Goal:** Monthly
 
 ## Parish Context
 
@@ -64,7 +64,10 @@
 
 <!-- Add dated notes after calls, emails, or significant updates -->
 
-- **2026-01-04** —
+- **04/02/2026** — Check-in with Rebecca and Patrick; reviewed engagement analytics, discussed Faith Formation Dashboard limitations, requested bilingual promo materials, and began planning a fall How to Pray Challenge launch (targeting 9/1/26).
+- **02/06/2026** — Touch base with Fr. West, Rebecca, Josh, and Matt; addressed unresolved post-launch issues including Spanish/English content switching, paywall prompt during onboarding, missing banners, and bilingual translation needs.
+- **01/14/2026** — Roadmap call; introduced community page features, discussed bilingual needs, two-parish merger logistics, and Lent challenge launch plan.
+- **2026-01-04** — Partnership start.
 
 ## Misc
 

@@ -15,13 +15,13 @@
 
 | Name | Title | Email |
 |------|-------|-------|
-| Jennifer Dolf | Business Manager | jdolf@stjohn-catholic.org |
+| Erin Snow | Director of Mission and Ministries | esnow@stjohn-catholic.org |
 
 ## Secondary Contact *(if applicable)*
 
 | Name | Title | Email |
 |------|-------|-------|
-| Erin Snow | Director of Mission and Ministries | esnow@stjohn-catholic.org |
+| Jennifer Dolf | Business Manager | jdolf@stjohn-catholic.org |
 | Kasey Holt | | kholt@stjohn-catholic.org |
 
 ## Partnership Details
