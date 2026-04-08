@@ -45,14 +45,7 @@ For each email found, summarize: what changed, what needs action (if anything). 
 Summary of recent messages with label `label:2.-areas-newsletters`
 
 ### 7. Daily Agenda
-- Pull all tasks due today, overdue, or scheduled for today
-- Build a time-blocked calendar for the day
-- Default to 30 minutes per task if no estimate exists
-- Use 15-minute increments (15, 30, 45, 60)
-
-| Time Block | Activity | Source |
-|------------|----------|--------|
-| ...        | ...      | HubSpot / ClickUp / etc. |
+Use the `daily-agenda` skill logic to build this section. All task data has already been gathered in Step 1 — pass it directly rather than re-fetching. The output is a time-blocked table with deep work protected in the morning, a consolidated HubSpot Tasks block, a 45-min Email block, and realistic time estimates.
 
 ## Step 3: Create Notion Page
 

@@ -1,78 +1,86 @@
 ---
 name: parish-data-report
 description: >
-  Generates a branded Hallow parish engagement report (PDF + email) from two
+  Generates a branded Hallow parish engagement report (PDF) from two
   CSVs — Community Engagement Metrics and Parish Community Challenges. Use this
   skill whenever Bryce uploads parish data files, asks for a parish report, wants
-  to send data to a parish POC, or mentions analyzing Church tab engagement.
+  to analyze Church tab engagement, or mentions creating a report for a parish POC.
   Trigger even if only one CSV is present — prompt for the missing one.
 ---
 
 # Goal
-Produce a visually polished, story-driven report for a parish point of contact (POC)
-that communicates how their community is engaging with the Church tab on the
-Hallow app. Then send that report alongside the raw data files to the parish POC
-via email.
+Produce a visually polished, story-driven PDF report for a parish point of contact (POC)
+that communicates how their community is engaging with the Church tab on the Hallow app.
 
-## Dependencies
-Requires two CSVs at runtime:
-- `Community_Engagement_Metrics.csv` — monthly prayer activity per community
-- `Parish_Community_Challenges.csv` — challenge participation data per community
+The report should leave the POC feeling **peace and clarity** — a reassuring update
+from a trusted partner that shows their parishioners are praying more and praying often,
+and gives them a clear picture of where their partnership with Hallow stands.
 
-If either file is missing, ask the user to upload it before proceeding.
+## Inputs Required at Runtime
+- **Parish name** — Bryce will provide this when invoking the skill
+- **Current total members** — the live member count on the parish community page (e.g., 619). Bryce will provide this. If not given, ask before proceeding.
+- `Community_Engagement_Metrics.csv`
+- `Parish_Community_Challenges.csv`
 
-## Output
-1. A branded PDF report generated via **WeasyPrint** (HTML/CSS → PDF).
-   Do not use reportlab. Do not use the PDF skill. Write HTML + CSS directly,
-   then convert with: `python3 -m weasyprint report.html report.pdf`
-2. An email to the parish POC (see Email section below).
+If the member count or either CSV is missing, ask for it before proceeding.
+
+## Workflow — Two Phases with a Human Pause
+
+This skill runs in two phases. Do not skip or combine them.
+
+### Phase 1: Generate HTML & Ask for Insights
+1. Read the CSVs, compute all stats, generate charts, and write the full HTML report
+   to `output/[parish-name]-report.html`
+2. Open the HTML in the browser: `open output/[parish-name]-report.html`
+3. Analyze the data and prepare 3–5 suggested insights based on what stands out
+   (growth trends, challenge standouts, engagement spikes, completion rates, etc.)
+4. Ask Bryce:
+   > "The HTML report is open in your browser — take a look through it.
+   > Here are some insights I'd suggest for the Insights & What's Next section:
+   > [list your suggestions]
+   > What would you like to include? Feel free to use mine, modify them, or add your own."
+5. Wait for Bryce's response before proceeding.
+
+### Phase 2: Finalize HTML
+1. Take Bryce's confirmed insights and write them into the Insights & What's Next section
+   as polished, warm narrative bullets (replace the placeholder block entirely)
+2. Regenerate the HTML with the completed insights section
+3. Open the final HTML in the browser: `open output/[parish-name]-report.html`
+4. Tell Bryce the report is ready at `output/[parish-name]-report.html` and remind him:
+   **To save as PDF: Cmd+P → Save as PDF → Letter, no margins, Background graphics ON**
 
 ---
 
 ## Design Authority
 
-This report uses **two layered design authorities**. Read both before writing any HTML/CSS:
+This report uses the **Hallow Brand Kit** as its sole design authority.
+Read `/Users/brycemcwhirter/.claude/skills/hallow-brand-kit/SKILL.md` before
+writing any HTML/CSS. Apply Hallow colors, typography, and visual identity throughout.
 
-1. **Hallow Brand Kit** — color and typography are non-negotiable.
-   Read `/Users/brycemcwhirter/.claude/skills/hallow-brand-kit/SKILL.md` and
-   `references/visual-identity.md`. This is a **Tier 1 asset**.
-2. **design-taste-frontend** — drives layout quality, anti-slop rules, and visual craft.
-   Read the skill at `projects/LBBtoDFW/.claude/skills/design-taste-frontend/SKILL.md`.
-   Apply its design philosophy, Layout Diversification (Rule 3), Materiality (Rule 4),
-   AI Tells (Section 7), and Creative Arsenal (Section 8) principles to every design decision.
-
-**Where they conflict, Hallow Brand Kit wins:**
-- Font: Inter (Hallow standard) — overrides design-taste-frontend's Inter ban
-- Accent color: Purple `#6D0EC1` (Hallow brand) — overrides the Lila Ban
-- Black: `#1A1A1A` (near-black, not `#000000`) for body text
-
-**Design dials for this print context (overrides design-taste-frontend defaults):**
-- `DESIGN_VARIANCE: 6` — offset asymmetry; headers left-aligned, stat cards varied
-- `MOTION_INTENSITY: 1` — PDF/print; no animation; CSS hover/active states only
-- `VISUAL_DENSITY: 5` — data-rich but airy; tables breathe, cards earn their borders
-
-**Design philosophy:** "Sleek design with a dash of purple." Premium tech product report —
-clean, white-dominant, modern. Not a spreadsheet dump. Apply design-taste-frontend's
-taste to every component: avoid generic 3-card rows, avoid centered hero layouts,
-avoid AI-tell patterns.
+**Core design constraints:**
+- Font: Inter throughout
+- Primary accent: Purple `#6D0EC1`
+- Body text: `#1A1A1A` (near-black, not `#000000`)
+- White-dominant, clean, premium tech product feel — not a spreadsheet dump
+- `DESIGN_VARIANCE: 6` — asymmetric layouts, left-aligned headers, varied stat cards
+- `MOTION_INTENSITY: 1` — PDF/print context; no animation
+- Always include `@media print` rules: `print-color-adjust: exact`, `page-break-inside: avoid` on cards/charts/table rows, `page-break-before: always` on **each section title** (Section 1 is page 1, Section 2 is page 2, Section 3 is page 3), fixed footer at bottom of page, `thead { display: table-header-group }` to repeat headers across pages
 
 ### Page Setup
 - A4/Letter, white background, 48px margins (left/right), 40px (top/bottom)
 - Max content width: 720px, centered
-- Use `@page` CSS for print sizing; WeasyPrint respects it
+- Use `@page` CSS for print sizing
 
 ### Header (Page 1 only)
-- Hallow purple wordmark logo, left-aligned (`Hallow-Wordmark-Purple.png`)
-  — logo height: 28px, preserve aspect ratio
+- Hallow purple wordmark logo, left-aligned (`Hallow-Wordmark-Purple.png`) — height: 28px
 - Right side: Parish name in Inter Bold 22px, `#1A1A1A`; "Church Tab Engagement Report"
   in Inter Regular 13px, `#888888`
-- Below: 1.5px solid purple `#6D0EC1` rule, full width, 16px top margin
+- Below: 1.5px solid `#6D0EC1` rule, full width, 16px top margin
 
-### Trend Chart (Section 1) — REQUIRED
-Use `matplotlib` to generate an inline SVG:
+### Charts
+Use `matplotlib` to generate inline SVGs embedded in the HTML:
 - Line color: `#6D0EC1`, 2px stroke; fill `rgba(109,14,193,0.08)` under the line
 - Axis labels: Inter Regular, grey; no chart border box — just axis lines
-- Chart height: ~220px
 
 ### Footer (every page)
 - 1px purple rule
@@ -84,66 +92,67 @@ Use `matplotlib` to generate an inline SVG:
 ## Report Layout
 
 ### Section 1: Community Engagement Overview
-Derived from `Community_Engagement_Metrics.csv`.
+Derived from `Community_Engagement_Metrics.csv`. Show all months present in the data.
 
-**Stat cards (5):**
+**Stat cards (6), displayed in a row:**
+- **Current Community Members** — the live total member count Bryce provides (most prominent card; this is the headline number)
 - Total Prayers Started
-- Total Prayers Completed + completion rate %
-- Peak Avg Daily Users (highest single month, name the month)
+- Total Prayers Completed + overall completion rate %
+- Peak Avg Daily Users (highest single month — name the month)
 - Total Intentions Posted
-- New Members Joined
 
-**Trend chart:** Average Daily Users Praying by month — this is the hero visual.
+**Two side-by-side trend charts (the hero visual):**
+1. **Prayers Completed by Month** — bar or line chart, all months
+2. **New Members Joined by Month** — bar or line chart, all months
 
-**Monthly activity table:** All months, columns: Month · Prayers Started ·
-Prayers Completed · Completion % · Avg Daily Users
+Both charts share the same x-axis (months) and height. Label months on the x-axis.
 
-**Trend narrative (2–3 sentences):** Call out the inflection point month,
-correlate to challenge launches. Warm, second-person voice.
+**Monthly activity table:** All months, sorted chronologically.
+Columns: Month · Prayers Started · Prayers Completed · Completion % · Avg Daily Users · New Members
 
 ---
 
-### Section 2: Parish Community Challenges
-Derived from `Parish_Community_Challenges.csv`.
+### Section 2: Challenge Engagement
+Derived from `Parish_Community_Challenges.csv`. All challenges present in the data.
 
-#### 2A. Global Challenges
-`Challenge Type = "Global Challenge"`. Emphasize scale — millions of Catholics
-praying together. One card per challenge.
+Present challenges in this priority order:
 
-#### 2B. Community-Specific Challenges
-`Challenge Type = "Community-Specific Challenge"`. Highlight completion rates —
-these are built for this parish. One card per challenge.
+#### 2A. Community-Specific Challenges *(most prominent)*
+These are challenges the parish POC made available for their community — give these
+the most visual weight. One card per challenge.
 
-#### 2C. Public Challenges
-`Challenge Type = "Public Challenge"`. Summary table only, top 5 by Participated.
-Frame as self-directed organic participation.
+#### 2B. Global Challenges
+These come with the Hallow partnership — millions of Catholics praying together.
+Frame them as the broader mission the parish is participating in. One card per challenge.
+
+#### 2C. Public Challenges *(de-emphasized)*
+Show as a compact summary table — noticeable but not dominant.
+Columns: Challenge Name · Start Date · Joined · Participated · Completed
 
 **Card metrics for 2A and 2B:**
-Joined · Participated · 25% · 50% · 75% · Completed · Completion Rate
+- Challenge name + start date
+- Joined
+- Participated
+- Completed
+- Completion Rate (Completed / Joined, as %)
+
+Do not show the 25/50/75% milestone columns.
 
 ---
 
-### Section 3: Interesting Insights
-3–5 narrative bullets in warm second-person voice. Tell human stories, not stats.
-Draw from completion standouts, engagement spikes, trajectory, and challenge
-type comparisons.
+### Section 3: Insights & What's Next
+
+**In Phase 1 (HTML draft):** Render this as a clearly marked placeholder so Bryce
+can see where the section will live. Style it with a light purple background and
+dashed border so it stands out as unfinished.
+
+**In Phase 2 (final HTML):** Replace the placeholder entirely with Bryce's confirmed
+insights, written as 3–5 warm, second-person narrative bullets. Tone: encouraging,
+mission-centered, forward-looking. Not bullet-point data — human stories and direction.
 
 ---
 
-## Email to Parish POC
-
-Draft for Bryce to review before sending.
-
-**Tone:** Warm, brief, ministry-minded. Per Hallow voice: welcoming, humble,
-mission-centered. Not a sales email.
-
-**Structure:**
-- Personal greeting (use POC name if known)
-- 1–2 sentences: "Here's a look at how [Parish] has been engaging..."
-- One standout insight highlight
-- Note that report + raw data are attached
-- Warm sign-off ("God bless" or "In Christ")
-
-**Attachments:** PDF report · Community_Engagement_Metrics.csv · Parish_Community_Challenges.csv
-
-Ask for POC name and email if not already provided.
+## Notes
+- Sort all months chronologically throughout the report
+- Completion Rate = Completed / Joined (not Completed / Participated)
+- Parish name comes from Bryce at runtime — do not pull it from the CSV

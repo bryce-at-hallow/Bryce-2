@@ -28,3 +28,4 @@ When given a partner email:
 - 200 lines is the soft ceiling per file — split when approaching it
 - Action items always go to HubSpot, not stored in partner files
 - Drafted emails go to Gmail, not to output/
+- You should always be looking in this directory for skills before looking globally. 
