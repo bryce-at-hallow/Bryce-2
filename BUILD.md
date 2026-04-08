@@ -1,6 +1,7 @@
 # Build Backlog
 
 ## Skills to Build
+- [ ] Schedule Roadmap Meeting — draft outreach email asking a parish to schedule a roadmap call + HubSpot follow-up task (similar to schedule-midyear-checkin). Open questions: (1) framing/context of roadmap call, (2) scheduler link to use, (3) task due date window
 - [ ] Email Writer — read partner email → reference context/ → draft HTML reply to Gmail
 - [ ] HubSpot Sync — refresh bryce_deals.json and update partner files on cadence
 - [ ] New Partner — onboard a new partner: create file, set up HubSpot deal, draft welcome email
